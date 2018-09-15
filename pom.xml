@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.macys</groupId>
+		<artifactId>macys-parent</artifactId>
+		<version>1.0.66</version>
+	</parent>
+
+	<groupId>com.macys.selection.xapi</groupId>
+	<artifactId>wishlist</artifactId>
+	<version>1.21.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>${project.artifactId}</name>
+	
+	<modules>
+		<module>service</module>
+		<!--TODO: Disabling auto-building func-tests for now. They should be built in separate job. -->
+ 		<!--<module>functional-test</module>-->
+		<module>config</module>
+	</modules>	
+
+	<properties>
+		<skipITs>false</skipITs>
+		<properties.management.plugin.version>3.6.6</properties.management.plugin.version>
+		<xapi.core.version>1.2.13</xapi.core.version>
+		<aspectj.version>1.8.9</aspectj.version>
+		<javers.version>3.0.0</javers.version>
+		<randombeans.version>3.1.0</randombeans.version>
+		<wiremock.version>2.6.0</wiremock.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.macys.platform</groupId>
+				<artifactId>xapi-core-spring-boot-starter</artifactId>
+				<version>${xapi.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.macys.platform.xapi</groupId>
+				<artifactId>wishlist-xapi-service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.macys.platform.xapi</groupId>
+				<artifactId>wishlist-xapi-functional-test</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.aspectj</groupId>
+				<artifactId>aspectjweaver</artifactId>
+				<version>${aspectj.version}</version>
+			</dependency>
+
+			<!-- Start: Test dependencies -->
+			<dependency>
+				<groupId>org.javers</groupId>
+				<artifactId>javers-core</artifactId>
+				<version>${javers.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.benas</groupId>
+				<artifactId>random-beans</artifactId>
+				<version>${randombeans.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.github.tomakehurst</groupId>
+				<artifactId>wiremock-standalone</artifactId>
+				<version>${wiremock.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.7.6.201602180812</version>
+				<executions>
+					<execution>
+						<id>default-prepare-agent</id>
+						<phase>process-test-classes</phase>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>report</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>default-check</id>
+						<phase>test</phase>
+						<goals>
+							<goal>check</goal>
+						</goals>
+						<configuration>
+							<rules>
+								<rule>
+									<limits>
+										<limit>
+											<counter>INSTRUCTION</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.0</minimum>
+										</limit>
+										<limit>
+											<counter>LINE</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.0</minimum>
+										</limit>
+										<limit>
+											<counter>BRANCH</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.0</minimum>
+										</limit>
+										<limit>
+											<counter>COMPLEXITY</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.0</minimum>
+										</limit>
+										<limit>
+											<counter>METHOD</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.0</minimum>
+										</limit>
+										<limit>
+											<counter>CLASS</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.0</minimum>
+										</limit>
+									</limits>
+								</rule>
+							</rules>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
