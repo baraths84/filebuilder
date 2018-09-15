@@ -1,0 +1,50 @@
+{
+  "list": {
+    "listGuid": "33c93575-3725-47cd-ae3b-80628602b5ee",
+    "name": "list 8",
+    "listType": "W",
+    "defaultList": false,
+    "onSaleNotify": false,
+    "searchable": true,
+    "numberOfItems": 1,
+    "imageUrlsList": [],
+    "user": {
+      "id": 2158575042,
+      "guid": "4496bbf1-f504-4c54-bd51-4fc9fcfb5396",
+      "guestUser": false
+    },
+    "items": [
+      {
+        "ItemId": 0,
+        "retailPriceWhenAdded": 0,
+        "retailPriceDropAfterAddedToList": 0,
+        "retailPriceDropPercentage": 0,
+        "qtyRequested": 4,
+        "qtyStillNeeded": 0,
+        "upc": {
+          "id": 37288131,
+          "price": {
+            "retailPrice": 0,
+            "originalPrice": 0,
+            "intermediateSalesValue": 0,
+            "salesValue": 0,
+            "onSale": false,
+            "upcOnSale": false,
+            "priceType": 0,
+            "basePriceType": 0
+          },
+          "availability": {
+            "available": false,
+            "inStoreEligible": false
+          },
+          "product": {
+            "active": false,
+            "live": false,
+            "available": false
+          }
+        }
+      }
+    ],
+    "listId": 1131027
+  }
+}

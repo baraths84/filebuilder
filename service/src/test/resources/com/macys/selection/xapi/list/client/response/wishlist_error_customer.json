@@ -1,0 +1,12 @@
+{
+  "errors": {
+    "error": [
+      {
+        "requestId": "c9b0c251-dd74-484e-944c-f4c0e00017a6",
+        "clientId": "list-xAPI",
+        "errorCode": "10101",
+        "message": "Invalid User ID"
+      }
+    ]
+  }
+}

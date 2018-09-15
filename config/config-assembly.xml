@@ -1,0 +1,12 @@
+<assembly>
+	<id>wishlist-config</id>
+	<formats>
+		<format>tar</format>
+	</formats>
+	<fileSets>
+		<fileSet>
+			<directory>target/classes</directory>
+			<outputDirectory>/config</outputDirectory>
+		</fileSet>
+	</fileSets>
+</assembly>

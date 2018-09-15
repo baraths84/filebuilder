@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "DELETE",
+    "url": "/api/customer/v1/favorites/c3e6a1b9-092d-4ac5-8b09-2cbd9841e202?productId=22805&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE"
+  },
+  "response": {
+    "status": 204,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "request" : {
+    "url" : "/api/selection/list/v1/wishlists/18c7557f-264c-490d-8e9e-956830d49284?userId=201306456&userGuid=8362659c-724e-40eb-a357-61b32ecfh48c&guestUser=false&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "PATCH"
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "_msp-wishlist—manage-list-with-invalid_listGuid.json",
+    "headers" : {
+      "X-Powered-By" : "Undertow/1",
+      "X-Macys-RequestId" : "dce63dad-4f80-44fb-9401-2c7bdb6ddbdf",
+      "Server" : "WildFly/11",
+      "X-Macys-ClientId" : "list-xAPI",
+      "Date" : "Mon, 18 Jun 2018 16:15:36 GMT",
+      "X-Application-Context" : "msp-wishlist:8080"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "collaborativeLists": {
+    "lists": [{
+      "listGuid": "d965e5ff-cc88-4fa9-8226-c10001008",
+      "name": "Collaborator List 1",
+      "listType": "C",
+      "createdDate": "2018-07-23T20:26:25.841",
+      "lastModified": "2018-07-23T20:26:25.841",
+      "userGuid": "10002008-10002008-10002008",
+      "collaborators": [
+        {
+          "userGuid": "2013445-2013445-2013445",
+          "privilege": "LIKE",
+          "createdDate": "2018-07-21T14:18:44.209",
+          "lastModifiedDate": "2018-07-21T14:18:44.209",
+          "listGuid": "f338675e-c359-4de9-b083-10001008"
+        },
+        {
+          "userGuid": "2013446-2013446-2013446",
+          "privilege": "LIKE",
+          "createdDate": "2018-07-21T14:19:45.209",
+          "lastModifiedDate": "2018-07-21T14:18:44.209",
+          "listGuid": "f338675e-c359-4de9-b083-10001008"
+        },
+        {
+          "userGuid": "2013447-2013447-2013447",
+          "privilege": "LIKE",
+          "createdDate": "2018-07-21T14:16:46.209",
+          "lastModifiedDate": "2018-07-21T14:18:44.209",
+          "listGuid": "f338675e-c359-4de9-b083-10001008"
+        },
+        {
+          "userGuid": "2013448-2013448-2013448",
+          "privilege": "LIKE",
+          "createdDate": "2018-07-21T14:13:47.209",
+          "lastModifiedDate": "2018-07-21T14:18:44.209",
+          "listGuid": "f338675e-c359-4de9-b083-10001008"
+        }
+      ],
+      "listId": 1000200801
+    }]
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "request" : {
+    "url" : "/api/catalog/v2/products/81003?_fields=name%2Cactive%2Cattributes%2CprimaryPortraitSource%2CadditionalImageSource%2CprimaryImage%2CadditionalImages%2CcolorwayImages%2CreviewStatistics%2Clive%2CdisplayCode%2CdefaultCategoryId%2Cshipping%2Cprice%2Cavailable%2Cupcs%2CmemberProductIds%2CfinalPrice&active=true&includeFinalPrice=true&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "_fcc-body-products-81003.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Macys-Handled-By" : "FCC",
+      "Cache-Control" : "no-transform, must-revalidate, max-age=1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "list-xAPI",
+      "X-Macys-RequestId" : "84cc5c81-f5e7-49c4-ba5d-0449cb2144da",
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 15 Jun 2018 15:45:27 GMT"
+    }
+  }
+}

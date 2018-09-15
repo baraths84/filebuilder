@@ -1,0 +1,13 @@
+{
+  "collaboratorResponse": {
+    "collaborators": [
+      {
+        "userGuid": "guid_123",
+        "listGuid": "guid_631116",
+        "privilege": "LIKE",
+        "createdDate": "2018-07-25T14:32:44.057",
+        "lastModifiedDate": "2018-07-25T14:32:44.057"
+      }
+    ]
+  }
+}

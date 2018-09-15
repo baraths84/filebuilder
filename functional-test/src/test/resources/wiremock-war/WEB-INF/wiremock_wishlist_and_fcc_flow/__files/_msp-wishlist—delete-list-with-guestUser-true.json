@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "error": [
+      {
+        "errorCode": "10128",
+        "message": "User do not have sufficent credentials to perform this operation"
+      }
+    ]
+  }
+}

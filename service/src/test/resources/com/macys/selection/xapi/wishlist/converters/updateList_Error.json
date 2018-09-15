@@ -1,0 +1,11 @@
+{
+	"errors": {
+		"error": [
+			{
+				"requestId": "df520097-5d23-43c3-a9b0-04b7563e9951",
+				"errorCode": "10101",
+				"message": "Invalid User ID"
+			}
+		]
+	}
+}

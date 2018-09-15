@@ -1,0 +1,18 @@
+{
+  "profilePictures": {
+    "profilePicture": [
+      {
+        "userGuid": "10001001-10001001-10001001",
+        "avatar": "avatar_image_1"
+      },
+      {
+        "userGuid": "2150902-2150902-2150902",
+        "avatar": "avatar_image_2"
+      },
+      {
+        "userGuid": "2150901-2150901-2150901",
+        "avatar": "avatar_image 3"
+      }
+    ]
+  }
+}

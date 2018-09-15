@@ -1,0 +1,24 @@
+{
+  "lists": {
+    "lists": [
+      {
+        "listGuid": "71adefa2-183a-4a9e-aa26-a3b96c11db24",
+        "name": "Guest List",
+        "listType": "W",
+        "defaultList": true,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 1,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-08-07 01:13:24.399165",
+        "lastModified": "2017-08-07 01:13:24.399165",
+        "user": {
+          "id": 201306168,
+          "guid": "8362659c-724e-40eb-a357-61b32ecf8fd5",
+          "guestUser": true
+        },
+        "listId": 10680021
+      }
+    ]
+  }
+}

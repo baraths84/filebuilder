@@ -1,0 +1,16 @@
+{
+  "user": {
+    "id": 99905,
+    "displayProfileSmartPrompt": true,
+    "profileAddress": {
+      "firstName": "Collaborator",
+      "lastName": "BlackListed",
+      "addressID": -1
+    },
+    "userMalicious": false,
+    "guestUser": false,
+    "actionId": 0,
+    "prodId": 0,
+    "skipEmailCommunication": false
+  }
+}

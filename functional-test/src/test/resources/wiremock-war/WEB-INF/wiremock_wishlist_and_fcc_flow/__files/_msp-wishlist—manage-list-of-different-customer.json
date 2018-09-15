@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "error": [
+      {
+        "errorCode": "10101",
+        "message": "Invalid User ID"
+      }
+    ]
+  }
+}

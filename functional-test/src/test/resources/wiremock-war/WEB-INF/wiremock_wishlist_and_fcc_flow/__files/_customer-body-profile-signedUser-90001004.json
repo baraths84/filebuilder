@@ -1,0 +1,17 @@
+{
+  "user": {
+    "id": 90001004,
+    "guid": "90001004-90001004-90001004",
+    "firstName": "Test",
+    "lastName": "Customer",
+    "displayProfileSmartPrompt": true,
+    "profileAddress": {
+      "addressID": -1
+    },
+    "userMalicious": false,
+    "guestUser": false,
+    "actionId": 0,
+    "prodId": 0,
+    "skipEmailCommunication": false
+  }
+}

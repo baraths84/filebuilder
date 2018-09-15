@@ -1,0 +1,45 @@
+{
+  "collaborativeLists": {
+    "lists": [
+      {
+        "listGuid": "d965e5ff-cc88-4fa9-8226-c10001004",
+        "name": "Collaborator list 4",
+        "listType": "C",
+        "createdDate": "2018-07-23T20:26:25.841",
+        "lastModified": "2018-07-23T20:26:25.841",
+        "userGuid": "10002004-10002004-10002004",
+        "numberOfItems": 2,
+        "collaborators": [
+          {
+            "userGuid": "2013365-2013365-2013365",
+            "privilege": "LIKE",
+            "createdDate": "2018-07-21T14:18:44.209",
+            "lastModifiedDate": "2018-07-21T14:18:44.209",
+            "listGuid": "d965e5ff-cc88-4fa9-8226-o10001004"
+          },
+          {
+            "userGuid": "2013366-2013366-2013366",
+            "privilege": "EDIT",
+            "createdDate": "2018-07-21T14:18:45.209",
+            "lastModifiedDate": "2018-07-21T14:18:44.209",
+            "listGuid": "d965e5ff-cc88-4fa9-8226-o10001004"
+          },
+          {
+            "userGuid": "2013367-2013367-2013367",
+            "privilege": "COMMENT",
+            "createdDate": "2018-07-21T14:18:46.209",
+            "lastModifiedDate": "2018-07-21T14:18:44.209",
+            "listGuid": "d965e5ff-cc88-4fa9-8226-o10001004"
+          },
+          {
+            "userGuid": "2013368-2013368-2013368",
+            "privilege": "EDIT",
+            "createdDate": "2018-07-21T14:18:47.209",
+            "lastModifiedDate": "2018-07-21T14:18:44.209",
+            "listGuid": "d965e5ff-cc88-4fa9-8226-o10001004"
+          }
+        ]
+      }
+    ]
+  }
+}

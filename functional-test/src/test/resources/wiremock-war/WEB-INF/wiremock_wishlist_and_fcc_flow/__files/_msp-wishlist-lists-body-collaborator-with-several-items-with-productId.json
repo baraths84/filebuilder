@@ -1,0 +1,104 @@
+{
+  "lists": {
+    "wishLists": [
+      {
+        "listGuid": "70dbc1c2-3c53-49f4-9bdb-w10001010",
+        "name": "Auto's List",
+        "listType": "W",
+        "defaultList": true,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 1,
+        "showPurchaseInfo": true,
+        "createdDate": "2011-08-26T16:57:03.773",
+        "lastModified": "2018-06-25T11:38:43.871",
+        "userId": 10001010,
+        "userGuid": "10001010-10001010-10001010",
+        "listId": 1000101001,
+        "items": [
+          {
+            "itemGuid": "70dbc1c2-3c53-49f4-9bdb-w10001010",
+            "itemId": 11212,
+            "addedDate": "2001-05-22T23:01:49.008",
+            "lastModified": "2008-10-11 17:23:43.453",
+            "retailPriceWhenAdded": 195,
+            "qtyRequested": 1,
+            "priority": "H",
+            "upcId": 90010
+          }]
+      }
+    ],
+    "ownerCollaborativeLists": [],
+    "collaboratorLists": [
+      {
+        "listGuid": "70dbc1c2-3c53-49f4-9bdb-c100010101",
+        "name": "Auto's List",
+        "listType": "C",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "showPurchaseInfo": true,
+        "createdDate": "2011-08-26T16:57:03.773",
+        "lastModified": "2018-06-25T11:38:43.871",
+        "userId": 10005010,
+        "userGuid": "10005010-10005010-10005010",
+        "listId": 1000501001
+      },{
+        "listGuid": "70dbc1c2-3c53-49f4-9bdb-c100010102",
+        "name": "Auto's List",
+        "listType": "C",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "showPurchaseInfo": true,
+        "createdDate": "2011-08-26T16:58:04.773",
+        "lastModified": "2018-06-25T11:38:43.871",
+        "userId": 10005010,
+        "userGuid": "10005010-10005010-10005010",
+        "listId": 1000501002,
+        "items": [
+          {
+            "itemGuid": "70dbc1c2-3c53-49f4-9bdb-c100010102",
+            "itemId": 11212,
+            "addedDate": "2001-05-22T23:01:49.008",
+            "lastModified": "2008-10-11 17:23:43.453",
+            "retailPriceWhenAdded": 195,
+            "qtyRequested": 1,
+            "priority": "H",
+            "productId": 9001002
+          },
+          {
+            "itemGuid": "70dbc1c2-3c53-49f4-9bdb-c100010103",
+            "itemId": 11214,
+            "addedDate": "2001-05-22T23:01:47.008",
+            "lastModified": "2008-10-11 17:23:43.453",
+            "retailPriceWhenAdded": 195,
+            "qtyRequested": 1,
+            "priority": "H",
+            "productId": 9001003
+          },
+          {
+            "itemGuid": "70dbc1c2-3c53-49f4-9bdb-c100010104",
+            "itemId": 11216,
+            "addedDate": "2001-05-22T23:01:48.008",
+            "lastModified": "2008-10-11 17:23:43.453",
+            "retailPriceWhenAdded": 195,
+            "qtyRequested": 1,
+            "priority": "H",
+            "productId": 9001004
+          },
+          {
+            "itemGuid": "70dbc1c2-3c53-49f4-9bdb-c100010105",
+            "itemId": 11218,
+            "addedDate": "2001-05-22T23:01:46.008",
+            "lastModified": "2008-10-11 17:23:43.453",
+            "retailPriceWhenAdded": 195,
+            "qtyRequested": 1,
+            "priority": "H",
+            "productId": 9001005
+          }
+        ]
+      }
+    ]
+  }
+}

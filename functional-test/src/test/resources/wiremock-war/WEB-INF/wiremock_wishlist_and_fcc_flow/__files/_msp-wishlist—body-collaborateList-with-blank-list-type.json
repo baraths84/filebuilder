@@ -1,0 +1,25 @@
+
+{"list": {
+"listGuid": "7184c6f5-32c6-4e1f-b92f-900020021",
+"name": "Collaborative list with  list type",
+"listType": null,
+"defaultList": false,
+"onSaleNotify": true,
+"searchable": true,
+"numberOfItems": 1,
+"showPurchaseInfo": true,
+"createdDate": "2001-05-22T23:01:49.008",
+"lastModified": "2008-10-11T17:23:43.453",
+"userGuid": "90002001-90002001-90002001",
+"items": [   {
+"itemGuid": "0cba5e7f-3715-403f-a8ff-900020021",
+"itemId": 11213,
+"addedDate": "2001-05-22T23:01:49.008",
+"lastModified": "2008-10-11 17:23:43.453",
+"retailPriceWhenAdded": 195,
+"qtyRequested": 1,
+"priority": "H",
+"upcId": 90003
+}],
+"listId": 90002002
+}}

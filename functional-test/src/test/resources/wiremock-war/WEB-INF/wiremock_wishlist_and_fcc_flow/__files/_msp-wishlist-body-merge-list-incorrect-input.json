@@ -1,0 +1,10 @@
+{
+  "errors":{
+    "error":[
+      {
+        "errorCode":"10002",
+        "message":"Please check your input."
+      }
+    ]
+  }
+}

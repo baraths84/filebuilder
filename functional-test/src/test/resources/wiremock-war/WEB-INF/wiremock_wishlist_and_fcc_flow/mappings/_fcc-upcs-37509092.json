@@ -1,0 +1,20 @@
+{
+  "request" : {
+    "url" : "/api/catalog/v2/upcs/37509092?_fields=upc%2CproductId%2Cactive%2Cprice%2Ccolorway%2Cattributes%2Cavailability&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "_fcc-body-upcs-37509092.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Macys-Handled-By" : "FCC",
+      "Cache-Control" : "no-transform, must-revalidate, max-age=1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "list-xAPI",
+      "X-Macys-RequestId" : "b99442bb-407a-4f81-8fb5-66b0d016e43e",
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 15 Jun 2018 15:45:18 GMT"
+    }
+  }
+}

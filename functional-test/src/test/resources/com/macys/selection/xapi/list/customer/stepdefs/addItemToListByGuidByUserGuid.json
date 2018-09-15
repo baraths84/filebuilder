@@ -1,0 +1,19 @@
+{
+    "CustomerList": {
+        "user": {
+            "guid": "4b61ee86-c46e-4f62-b97a-f52a20b512e8"
+        },
+        "list": [
+            {
+                "items": [
+                    {
+                        "qtyRequested": "1",
+                        "upc": {
+                            "id": "37509092"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

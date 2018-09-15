@@ -1,0 +1,82 @@
+{
+   "lists":{
+      "lists":[
+         {
+            "listGuid":"71adefa2-183a-4a9e-aa26-a3b96c11db24",
+            "name":"Guest List",
+            "listType":"W",
+            "defaultList":true,
+            "onSaleNotify":false,
+            "searchable":false,
+            "numberOfItems":1,
+            "showPurchaseInfo":true,
+            "createdDate":"2017-08-07 01:13:24.399165",
+            "lastModified":"2017-08-07 01:13:24.399165",
+            "links":[
+               {
+                  "rel":"user",
+                  "ref":"http://api.mcom-listre17t.c4d.devops.fds.com/customer/v1/users/userdetails/getuser?userid=201306168"
+               },
+               {
+                  "rel":"self",
+                  "ref":"http://api.mcom-listre17t.c4d.devops.fds.com/customer/v1/lists?userid=201306168"
+               },
+               {
+                  "rel":"items",
+                  "ref":"http://api.mcom-listre17t.c4d.devops.fds.com/customer/v1/lists/71adefa2-183a-4a9e-aa26-a3b96c11db24?_expand=items"
+               }
+            ],
+            "user":{
+               "id":201306168,
+               "guid":"8362659c-724e-40eb-a357-61b32ecf8fd5",
+               "guestUser":true
+            },
+            "items":[
+               {
+                  "itemGuid":"f4fa2368-1c07-4da6-8ae1-1eec7cef7b23",
+                  "ItemId":10594035,
+                  "addedDate":"2017-09-14T18:27:54.203",
+                  "lastModified":"2017-09-14 18:27:54.204229",
+                  "retailPriceWhenAdded":99,
+                  "retailPriceDropAfterAddedToList":0,
+                  "retailPriceDropPercentage":0,
+                  "qtyRequested":1,
+                  "qtyStillNeeded":0,
+                  "upc":{
+                     "id":37609138,
+                     "upcNumber":191479341845,
+                     "color":"Petticoat",
+                     "size":"XS",
+                     "price":{
+                        "retailPrice":99,
+                        "originalPrice":99,
+                        "intermediateSalesValue":0,
+                        "salesValue":0,
+                        "onSale":false,
+                        "upcOnSale":false,
+                        "priceType":0,
+                        "basePriceType":0
+                     },
+                     "availability":{
+                        "available":true,
+                        "upcAvailabilityMessage":"In Stock: Usually ships within 2 business days.",
+                        "inStoreEligible":true,
+                        "orderMethod":"POOL"
+                     },
+                     "product":{
+                        "id":4835927,
+                        "name":"The North Face Tamburello Insulated Ski Jacket",
+                        "active":true,
+                        "primaryImage":"8748361.fpx",
+                        "imageURL":"1/optimized/8748361_fpx.tif",
+                        "live":true,
+                        "available":true
+                     }
+                  }
+               }
+            ],
+            "listId":10680021
+         }
+      ]
+   }
+}

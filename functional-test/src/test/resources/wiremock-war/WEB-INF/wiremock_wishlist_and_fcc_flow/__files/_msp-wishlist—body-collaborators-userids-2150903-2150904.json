@@ -1,0 +1,18 @@
+{
+  "collaboratorResponse": {
+    "collaborators": [
+      {
+        "userGuid": "2150903-2150903-2150903",
+        "privilege": "LIKE",
+        "createdDate": "2018-07-21T14:18:44.209",
+        "lastModifiedDate": "2018-07-21T14:18:44.209"
+      },
+      {
+        "userGuid": "2150904-2150904-2150904",
+        "privilege": "LIKE",
+        "createdDate": "2018-07-21T14:18:44.209",
+        "lastModifiedDate": "2018-07-21T14:18:44.209"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "errors":{
+    "error":[
+      {
+        "errorCode":"10139",
+        "message":"Invalid Add Product: Can’t add master product"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "request" : {
+    "url" : "/api/catalog/v2/products/81666?_fields=name%2Cactive%2Cattributes%2CprimaryPortraitSource%2CadditionalImageSource%2CprimaryImage%2CadditionalImages%2CcolorwayImages%2CreviewStatistics%2Clive%2CdisplayCode%2CdefaultCategoryId%2Cshipping%2Cprice%2Cavailable%2Cupcs%2CmemberProductIds%2CfinalPrice&active=true&includeFinalPrice=true&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName": "_fcc-body-master-product-81666.json",
+    "headers" : {
+      "X-Powered-By" : "Undertow/1",
+      "X-Macys-RequestId" : "02843915-7649-41d2-9887-0173e5770882",
+      "Server" : "WildFly/11",
+      "X-Macys-ClientId" : "list-xAPI",
+      "Date" : "Mon, 18 Jun 2018 16:15:37 GMT",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "Content-Type" : "application/json",
+      "X-Application-Context" : "msp-wishlist:8080"
+    }
+  }
+}

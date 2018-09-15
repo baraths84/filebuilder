@@ -1,0 +1,27 @@
+{"lists": {"lists": [{
+  "listGuid": "71adefa2-183a-4a9e-aa26-a3b96c11db24",
+  "name": "Guest List",
+  "listType": "W",
+  "defaultList": true,
+  "onSaleNotify": false,
+  "searchable": false,
+  "numberOfItems": 1,
+  "showPurchaseInfo": true,
+  "createdDate": "2017-09-14T15:27:54.201",
+  "lastModified": "2017-09-14T15:27:54.201",
+  "userId": 201306168,
+  "userGuid": "8362659c-724e-40eb-a357-61b32ecf8fd5",
+  "items":    [
+    {
+      "itemGuid": "f4fa2368-1c07-4da6-8ae1-1eec7cef7b23",
+      "itemId": 10594035,
+      "addedDate": "2017-09-14T15:27:54.203",
+      "lastModified": "2017-09-14 15:27:54.204229",
+      "retailPriceWhenAdded": 99,
+      "qtyRequested": 1,
+      "upcId": 37609138,
+      "productId": 4835927
+    }
+  ],
+  "listId": 10680021
+}]}}

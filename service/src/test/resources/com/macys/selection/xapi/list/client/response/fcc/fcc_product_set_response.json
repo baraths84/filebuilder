@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "id": 456,
+      "name": "Steel Bracelet Watch",
+      "defaultCategoryId": 23,
+      "active": true,
+      "primaryPortraitSource": "test_source",
+      "live": true,
+      "available": true,
+      "additionalImageSource": [
+        "testImage"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "test_name",
+      "defaultCategoryId": 11,
+      "active": false,
+      "primaryPortraitSource": "test_source2",
+      "live": false,
+      "available": false,
+      "additionalImageSource": [
+        "testImage2"
+      ]
+    }
+  ]
+}

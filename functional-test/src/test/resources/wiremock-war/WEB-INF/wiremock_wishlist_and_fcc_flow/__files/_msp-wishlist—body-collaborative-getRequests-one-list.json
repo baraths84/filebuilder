@@ -1,0 +1,15 @@
+{"requestsResponse": {"list": [
+  {
+    "listGuid": "a78a1ed1-d7c0-4aae-2013365-1",
+    "name": "Collaborative List 901",
+    "requestPrivilege": "PENDING",
+    "collaborators": [      {
+      "userGuid": "2013365-2013365-2013365",
+      "listGuid": "a78a1ed1-d7c0-4aae-2013365-1",
+      "privilege": "OWNER",
+      "profilePicture": "avatar_image_1",
+      "createdDate": "2001-05-22T23:01:49.008",
+      "lastModifiedDate": "2008-10-11T17:23:43.453"
+    }]
+  }
+]}}

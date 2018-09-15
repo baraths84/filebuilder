@@ -1,0 +1,18 @@
+{"activityLogPage": {"activityLog": [
+  {
+    "userGuid": "99901-99901",
+    "listGuid": "dfa1ece-db69-4369-a222-99991",
+    "activityType": "ADD_ITEM",
+    "upcId": 81002,
+    "createdDate": "2018-07-29T11:44:35.650",
+    "lastModifiedDate": "2018-07-29T11:44:35.650"
+  },
+  {
+    "userGuid": "99901-99901",
+    "listGuid": "dfa1ece-db69-4369-a222-99991",
+    "activityType": "REMOVE_ITEM",
+    "upcId": 81002,
+    "createdDate": "2018-07-29T11:44:36.640",
+    "lastModifiedDate": "2018-07-29T11:44:36.640"
+  }
+]}}

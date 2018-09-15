@@ -1,0 +1,44 @@
+{
+  "collaborativeLists": {
+    "lists": [
+      {
+        "listGuid": "d965e5ff-cc88-4fa9-8226-c100010091",
+        "name": "Collaborator List 1",
+        "listType": "C",
+        "createdDate": "2018-07-23T20:26:25.841",
+        "lastModified": "2018-07-23T20:26:25.841",
+        "userGuid": "10002008-10002008-10002008",
+        "listId": 100010091,
+        "numberOfItems": 2
+      },
+      {
+        "listGuid": "d965e5ff-cc88-4fa9-8226-c100010092",
+        "name": "Collaborator List 2",
+        "listType": "C",
+        "createdDate": "2018-07-23T20:27:25.841",
+        "lastModified": "2018-07-23T20:27:25.841",
+        "userGuid": "10002008-10002008-10002008",
+        "listId": 100010092
+      },
+      {
+        "listGuid": "d965e5ff-cc88-4fa9-8226-c100010093",
+        "name": "Collaborator List 3",
+        "listType": "C",
+        "createdDate": "2018-07-23T20:28:25.841",
+        "lastModified": "2018-07-23T20:28:25.841",
+        "userGuid": "10002009-10002009-10002009",
+        "listId": 100010093
+      },
+      {
+        "listGuid": "d965e5ff-cc88-4fa9-8226-c100010094",
+        "name": "Collaborator List 4",
+        "listType": "C",
+        "createdDate": "2018-07-23T20:26:24.841",
+        "lastModified": "2018-07-23T20:26:24.841",
+        "userGuid": "10002009-10002009-10002009",
+        "listId": 100010094
+      }
+    ]
+  }
+}
+

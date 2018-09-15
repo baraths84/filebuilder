@@ -1,0 +1,77 @@
+{
+  "lists": {
+    "wishLists": [
+      {
+        "listGuid": "70dbc1c2-3c53-49f4-9bdb-w10001003",
+        "name": "Auto's List",
+        "listType": "W",
+        "defaultList": true,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 0,
+        "showPurchaseInfo": true,
+        "createdDate": "2011-08-26T16:57:03.773",
+        "lastModified": "2018-06-25T11:38:43.871",
+        "userId": 10001003,
+        "userGuid": "10001003-10001003-10001003",
+        "listId": 1000100301
+      }
+    ],
+    "ownerCollaborativeLists": [
+      {
+        "listGuid": "70dbc1c2-3c53-49f4-9bdb-o10001003",
+        "name": "Auto's List",
+        "listType": "C",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "showPurchaseInfo": true,
+        "createdDate": "2011-08-26T16:57:03.773",
+        "lastModified": "2018-06-25T11:38:43.871",
+        "userId": 10001003,
+        "userGuid": "10001003-10001003-10001003",
+        "listId": 1000100302,
+        "items": [
+          {
+            "itemGuid": "70dbc1c2-3c53-49f4-9bdb-11212",
+            "itemId": 11212,
+            "addedDate": "2001-05-22T23:01:49.008",
+            "lastModified": "2008-10-11 17:23:43.453",
+            "retailPriceWhenAdded": 195,
+            "qtyRequested": 1,
+            "priority": "H",
+            "upcId": 90002
+          },{
+            "itemGuid": "70dbc1c2-3c53-49f4-9bdb-90003",
+            "itemId": 11213,
+            "addedDate": "2001-05-22T23:11:49.008",
+            "lastModified": "2008-10-11 17:23:43.453",
+            "retailPriceWhenAdded": 195,
+            "qtyRequested": 1,
+            "priority": "H",
+            "upcId": 90003
+          },{
+            "itemGuid": "70dbc1c2-3c53-49f4-9bdb-11214",
+            "itemId": 11214,
+            "addedDate": "2001-05-22T23:21:49.008",
+            "lastModified": "2008-10-11 17:23:43.453",
+            "retailPriceWhenAdded": 195,
+            "qtyRequested": 1,
+            "priority": "H",
+            "upcId": 90004
+          },{
+            "itemGuid": "70dbc1c2-3c53-49f4-9bdb-11215",
+            "itemId": 11215,
+            "addedDate": "2001-05-22T23:31:49.008",
+            "lastModified": "2008-10-11 17:23:43.453",
+            "retailPriceWhenAdded": 195,
+            "qtyRequested": 1,
+            "priority": "H",
+            "upcId": 90005
+          }
+        ]
+      }
+    ],
+    "collaboratorLists": []
+  }
+}

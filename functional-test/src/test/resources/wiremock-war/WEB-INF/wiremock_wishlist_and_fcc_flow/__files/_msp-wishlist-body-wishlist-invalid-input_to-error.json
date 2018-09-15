@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "error": [
+      {
+        "errorCode": "10125",
+        "message": "Invalid to email address"
+      }
+    ]
+  }
+}

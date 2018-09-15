@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "matches": ".*"
+      }
+    ],
+    "url": "/api/customer/v1/lists?_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "create_list_res.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

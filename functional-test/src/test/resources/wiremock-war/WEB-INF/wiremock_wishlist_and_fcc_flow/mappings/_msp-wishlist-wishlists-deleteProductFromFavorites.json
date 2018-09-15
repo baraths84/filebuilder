@@ -1,0 +1,17 @@
+{
+  "request" : {
+    "url" : "/api/selection/list/v1/favorites/c3e6a1b9-092d-4ac5-8b09-2cbd9841e202?guestUser=false&upcId=52582&productId=22805&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 204,
+    "headers" : {
+      "X-Powered-By" : "Undertow/1",
+      "X-Macys-RequestId" : "dce63dad-4f80-44fb-9401-2c7bdb6ddbdf",
+      "Server" : "WildFly/11",
+      "X-Macys-ClientId" : "list-xAPI",
+      "Date" : "Mon, 18 Jun 2018 16:15:36 GMT",
+      "X-Application-Context" : "msp-wishlist:8080"
+    }
+  }
+}

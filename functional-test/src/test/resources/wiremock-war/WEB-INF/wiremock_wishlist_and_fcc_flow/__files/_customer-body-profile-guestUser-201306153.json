@@ -1,0 +1,15 @@
+{
+  "user": {
+    "id": 201306153,
+    "guid": "74eddb1d-a22f-4bb3-b68c-cf445f4d3c3f",
+    "displayProfileSmartPrompt": true,
+    "profileAddress": {
+      "addressID": -1
+    },
+    "userMalicious": false,
+    "guestUser": false,
+    "actionId": 0,
+    "prodId": 0,
+    "skipEmailCommunication": false
+  }
+}

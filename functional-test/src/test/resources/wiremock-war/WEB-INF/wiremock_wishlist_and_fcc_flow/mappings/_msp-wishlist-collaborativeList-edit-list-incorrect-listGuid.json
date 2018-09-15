@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "PATCH",
+    "bodyPatterns": [
+      {
+        "equalToJson" : "{\"list\":{\"guid\":\"7184c6f5-32c6-4e1f-b92f-90002222\",\"name\":\"Incorrect list guid\"}}"
+      }
+    ],
+    "url": "/api/selection/list/v1/wishlists/7184c6f5-32c6-4e1f-b92f-90002222?userId=90001001&userGuid=90001001-90001001-90001001&guestUser=false&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE"
+  },
+  "response": {
+    "status": 400,
+    "bodyFileName": "_msp-wishlist—body-collaborateList-incorrect-listGuid.json"
+}}

@@ -1,0 +1,16 @@
+{
+  "collaborativeLists": {
+    "lists": [
+      {
+        "listGuid": "d965e5ff-cc88-4fa9-8226-o10001001",
+        "name": "Owner list 1",
+        "listType": "C",
+        "createdDate": "2018-07-23T20:26:25.841",
+        "lastModified": "2018-07-23T20:26:25.841",
+        "userGuid": "10001001-10001001-10001001",
+        "collaborators": [],
+        "numberOfItems": 2
+      }
+    ]
+  }
+}

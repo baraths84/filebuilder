@@ -1,0 +1,72 @@
+{
+  "upc": {
+        "id":  9870126,
+        "upc": 98701,
+        "price": {
+          "originalPrice": 24.99,
+          "originalPriceLabel": "Reg.",
+          "retailPrice": 14.99,
+          "retailPriceLabel": "Sale",
+          "priceType": 3,
+          "saleValue": 14.99,
+          "intermediateSaleValue": 0,
+          "effectiveDate": "2018-07-30T00:00:01.000",
+          "expirationDate": "2018-08-19T23:59:59.000",
+          "displayCode": "",
+          "basePriceType": 0,
+          "onSale": true,
+          "pricingPolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+          "pricingPolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=3&daysInC=17742&ID=4192",
+          "willBe": false,
+          "percentageOff": 40
+        },
+        "addByApp": "MCOM",
+        "baseFeeExempt": false,
+        "surchargeFee": 0,
+        "backorderable": true,
+        "colorway": {
+          "colorwayId": 952,
+          "colorName": "No Color",
+          "swatchSeqNumber": 1,
+          "swapoutSeqNumber": 1
+        },
+        "active": true,
+        "v2cFlag": false,
+        "link": [
+          {
+            "rel": "self",
+            "ref": "http://172.21.75.39:85/api/catalog/v2/upcs?upcNumber=719812261911"
+          },
+          {
+            "rel": "storeInventory",
+            "ref": "http://172.21.75.39:85/api/catalog/v2/inventories/storeinventory?upc=719812261911"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "COLOR",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "No Color",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "DISCOUNTABLE",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Y",
+                "sequenceNumber": 0
+              }
+            ]
+          }
+        ]
+      }
+}

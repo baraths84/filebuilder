@@ -1,0 +1,12 @@
+{
+	"errors": {
+		"error": [
+			{
+				"requestId": "2bb757d4-68b3-4aab-8bae-cef5e5b45c67",
+				"clientId": "list-xAPI",
+				"errorCode": "10103",
+				"message": "Either user id or user guid missing or invalid"
+			}
+		]
+	}
+}

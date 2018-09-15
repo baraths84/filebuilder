@@ -1,0 +1,53 @@
+{
+  "lists": {
+    "wishLists": [
+      {
+        "listGuid": "70dbc1c2-3c53-49f4-9bdb-w10001004",
+        "name": "Auto's List",
+        "listType": "W",
+        "defaultList": true,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 0,
+        "showPurchaseInfo": true,
+        "createdDate": "2011-08-26T16:57:03.773",
+        "lastModified": "2018-06-25T11:38:43.871",
+        "userId": 10001004,
+        "userGuid": "10001004-10001004-10001004",
+        "listId": 1000100401
+      }
+    ],
+    "ownerCollaborativeLists": [
+      {
+        "listGuid": "70dbc1c2-3c53-49f4-9bdb-o10001004",
+        "name": "Auto's List",
+        "listType": "C",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "showPurchaseInfo": true,
+        "createdDate": "2011-08-26T16:57:03.773",
+        "lastModified": "2018-06-25T11:38:43.871",
+        "userId": 10001004,
+        "userGuid": "10001004-10001004-10001004",
+        "listId": 1000100402
+      }
+    ],
+    "collaboratorLists": [
+      {
+        "listGuid": "70dbc1c2-3c53-49f4-9bdb-c10001004",
+        "name": "Auto's List",
+        "listType": "C",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "showPurchaseInfo": true,
+        "createdDate": "2011-08-26T16:57:03.773",
+        "lastModified": "2018-06-25T11:38:43.871",
+        "userId": 10005004,
+        "userGuid": "10005004-10005004-10005004",
+        "listId": 1000100403
+      }
+    ]
+  }
+}

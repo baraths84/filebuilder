@@ -1,0 +1,1282 @@
+{
+	"info": {
+		"_postman_id": "f60c44af-f2c9-481a-a62b-995b15413b52",
+		"name": "TestCollaborative",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AUTH",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "784fb88d-1ebb-4071-b9e3-c70f78b413b7",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"token\", jsonData.access_token);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic N2I0ZXB0NjV1M21odXY5ZXp6OTJ0YnFuOktzVTlNWkF6dDl0RjhWa1c2dXNyWlo2ZA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded; charset=utf-8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "grant_type=password&username=testuser@test.test&password=qwerty123&mobileAppId=0b8c0275-f64b-4a9b-a2e0-5744c4d002d8"
+				},
+				"url": {
+					"raw": "https://auth.mcom-hlready18o.tbe.zeus.fds.com/v2/oauth2/token/userDetails?application=MOBILE",
+					"protocol": "https",
+					"host": [
+						"auth",
+						"mcom-hlready18o",
+						"tbe",
+						"zeus",
+						"fds",
+						"com"
+					],
+					"path": [
+						"v2",
+						"oauth2",
+						"token",
+						"userDetails"
+					],
+					"query": [
+						{
+							"key": "application",
+							"value": "MOBILE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCollaborativeList",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "82bbea1b-8db0-470c-97f5-dadb6a9e7c45",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"listGuid\", jsonData.list.listGuid);",
+							"",
+							"pm.test(\"Response contains listGuid\", function(){",
+							"   pm.response.to.have.jsonBody('list.listGuid');",
+							"});",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"   pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"list\":\n\t{\n\"name\":\"Style list. {{$timestamp}}\",\n\"userGuid\":\"d5cae989-32bf-4f93-b82a-9379992\",\n\"items\":[ \n\t{\"upc\": {\"id\": 8804}}\n\t]\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/create",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditCollaborativeList",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "91057b1d-fef7-4188-82ad-7bd800420aa3",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response have 204 status\", function(){",
+							"   pm.response.to.have.status(204);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"list\":\n\t{\n\"name\":\"Edited name. {{$timestamp}}\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/{{listGuid}}?userGuid={{userGuid}}",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"{{listGuid}}"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{userGuid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateWishlist",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bcb6ebd1-defa-45d9-852e-da2c144c117a",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"wishlistGuid\", jsonData.CustomerList.list[0].listGuid);",
+							"",
+							"pm.test(\"Response contains user data\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.CustomerList.user.id).to.eql(9379992);",
+							"    pm.expect(jsonData.CustomerList.user.guid).to.eql(\"d5cae989-32bf-4f93-b82a-9379992\");",
+							"});",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"   pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"CustomerList\": {\n\t\t\"user\": {\n\t\t\t\"id\": 9379992\n\t\t\t\t},\n\t\t\t\t\"list\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"listType\": \"w\",\n\t\t\t\t\t\t\"name\": \"Wishlist {{$timestamp}}\",\n\t\t\t\t\t\t\"searchable\": \"false\"\n\t\t\t\t\t}]\n\t\t\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host2}}/wishlist/v1/lists",
+					"host": [
+						"{{host2}}"
+					],
+					"path": [
+						"wishlist",
+						"v1",
+						"lists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddCollaboratorRequest1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b268b671-1fdc-4a69-89f7-eec9370bd42d",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"   pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains priviege\", function () {",
+							"     pm.expect(jsonData.collaborator.privilege).to.equal(\"PENDING\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"collaborator\": {\n  \"userGuid\": \"{{userGuid}}\",\n  \"listGuid\": \"{{collaboratorList2}}\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/addcollaborator",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"addcollaborator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddCollaboratorRequest2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b268b671-1fdc-4a69-89f7-eec9370bd42d",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"   pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains priviege\", function () {",
+							"     pm.expect(jsonData.collaborator.privilege).to.equal(\"PENDING\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"collaborator\": {\n  \"userGuid\": \"{{collaboratorGuid1}}\",\n  \"listGuid\": \"{{collaboratorList1}}\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/addcollaborator",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"addcollaborator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditPrivilegeToLike",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ac018428-7aba-461a-bb3d-90e28e0d0493",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response have 204 OK status\", function(){",
+							"   pm.response.to.have.status(204);",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"collaboratorPrivilege\": {\n  \"currentUserGuid\": \"{{userGuid}}\",\n  \"collaborator\": {\n    \"userGuid\": \"{{collaboratorGuid1}}\",\n    \"privilege\": \"LIKE\"\n  }\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/{{collaboratorList3}}/privilege",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"{{collaboratorList3}}",
+						"privilege"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditPrivilegeToRejected",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ac018428-7aba-461a-bb3d-90e28e0d0493",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response have 204 OK status\", function(){",
+							"   pm.response.to.have.status(204);",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"collaboratorPrivilege\": {\n  \"currentUserGuid\": \"{{userGuid}}\",\n  \"collaborator\": {\n    \"userGuid\": \"{{collaboratorGuid2}}\",\n    \"privilege\": \"REJECTED\"\n  }\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/{{collaboratorList4}}/privilege",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"{{collaboratorList4}}",
+						"privilege"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditPrivilegeToLike",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ac018428-7aba-461a-bb3d-90e28e0d0493",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response have 204 OK status\", function(){",
+							"   pm.response.to.have.status(204);",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"collaboratorPrivilege\": {\n  \"currentUserGuid\": \"{{collaboratorGuid1}}\",\n  \"collaborator\": {\n    \"userGuid\": \"{{userGuid}}\",\n    \"privilege\": \"LIKE\"\n  }\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/{{collaboratorList2}}/privilege",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"{{collaboratorList2}}",
+						"privilege"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddAvatar",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "fd2d046c-10ff-4241-b68d-8ac1cdc72852",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response have 204 status\", function(){",
+							"    pm.response.to.have.status(204);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"profilePicture\": {\n\t\t\"userGuid\": \"{{collaboratorGuid2}}\",\n\t\t\"avatar\": \"Avatar_image_1\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/avatar",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"avatar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAvatar",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b466fc47-fb88-43a9-a818-f1cd2f45dda1",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains avatar data\", function () {",
+							"    pm.expect(jsonData.profilePicture.avatar).to.equal(\"Avatar_image_1\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/avatar/{{collaboratorGuid2}}",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"avatar",
+						"{{collaboratorGuid2}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetApprovals",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "97dc120a-00d6-4682-ac3b-f49d0c649a71",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains list data\", function () {",
+							"    pm.expect(jsonData.approvalsResponse.lists[0].listGuid).to.equal(pm.variables.get(\"collaboratorList1\"));",
+							"});",
+							"",
+							"pm.test(\"Response contains collaborator data\", function () {",
+							"    pm.expect(jsonData.approvalsResponse.lists[0].collaborators[0].userGuid).to.equal(pm.variables.get(\"collaboratorGuid1\"));",
+							"    pm.expect(jsonData.approvalsResponse.lists[0].collaborators[0].listGuid).to.equal(pm.variables.get(\"collaboratorList1\"));",
+							"    pm.expect(jsonData.approvalsResponse.lists[0].collaborators[0].privilege).to.equal(\"PENDING\");",
+							"    pm.expect(jsonData.approvalsResponse.lists[0].collaborators[0].lastName).to.equal(\"LastName3\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/approvals?userGuid={{userGuid}}&offset=0&limit=100",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"approvals"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{userGuid}}"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getRequests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "eec580e8-da7e-429d-bb22-1cd2cf886351",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains Pending lists data\", function () {",
+							"    pm.expect(jsonData.requestsResponse.lists.APPROVED[0].listGuid).to.equal(pm.variables.get(\"collaboratorList2\"));",
+							"    pm.expect(jsonData.requestsResponse.lists.APPROVED[0].name).to.equal(\"TEST NAME 2\");",
+							"    pm.expect(jsonData.requestsResponse.lists.APPROVED[0].owner.userGuid).to.equal(pm.variables.get(\"collaboratorGuid1\"));",
+							"    pm.expect(jsonData.requestsResponse.lists.APPROVED[0].owner.listGuid).to.equal(pm.variables.get(\"collaboratorList2\"));",
+							"    pm.expect(jsonData.requestsResponse.lists.APPROVED[0].owner.privilege).to.equal(\"OWNER\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/requests?userGuid={{userGuid}}&offset=0&limit=100",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"requests"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{userGuid}}"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLists",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2bb8a2eb-6d6d-4122-9833-f26c1f378e6b",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"itemGuid\", jsonData.listsPresentation.lists.collaborativeList[0].items[0].itemGuid);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"   pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains lists data\", function () {",
+							"     pm.expect(jsonData.listsPresentation.lists.wishList[0].listGuid).to.equal(pm.variables.get(\"wishlistGuid\"));",
+							"     pm.expect(jsonData.listsPresentation.lists.wishList[0].listType).to.equal(\"W\");",
+							"     pm.expect(jsonData.listsPresentation.lists.wishList[0].defaultList).to.equal(true);",
+							"     pm.expect(jsonData.listsPresentation.lists.collaborativeList[0].listGuid).to.equal(pm.variables.get(\"listGuid\"));",
+							"     pm.expect(jsonData.listsPresentation.lists.collaborativeList[0].listType).to.equal(\"C\");",
+							"     pm.expect(jsonData.listsPresentation.lists.collaborativeList[0].userGuid).to.equal(pm.variables.get(\"userGuid\"));",
+							"});",
+							"",
+							"pm.test(\"Response contains collaborator (owner) data\", function () {",
+							"     pm.expect(jsonData.listsPresentation.lists.collaborativeList[0].collaborators[0].userGuid).to.equal(pm.variables.get(\"userGuid\"));",
+							"     pm.expect(jsonData.listsPresentation.lists.collaborativeList[0].collaborators[0].listGuid).to.equal(pm.variables.get(\"listGuid\"));",
+							"     pm.expect(jsonData.listsPresentation.lists.collaborativeList[0].collaborators[0].privilege).to.equal(\"OWNER\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/lists/v1/lists?userGuid={{userGuid}}",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"lists",
+						"v1",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{userGuid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postFeedback",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "9a0abf17-9765-4ea0-8127-063ac3e01737",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response have 204 OK status\", function(){",
+							"    pm.response.to.have.status(204);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/{{listGuid}}/feedback/{{itemGuid}}?userGuid={{userGuid}}&itemFeedback=like",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"{{listGuid}}",
+						"feedback",
+						"{{itemGuid}}"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{userGuid}}"
+						},
+						{
+							"key": "itemFeedback",
+							"value": "like"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getActivityLog",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bf8a70f6-82fa-4218-baf5-3ac7cd41d17e",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains activity log data\", function () {",
+							"    pm.expect(jsonData.activityLogPage.activityLog[0].listGuid).to.equal(pm.variables.get(\"listGuid\"));",
+							"    pm.expect(jsonData.activityLogPage.activityLog[0].userGuid).to.equal(pm.variables.get(\"userGuid\"));",
+							"    pm.expect(jsonData.activityLogPage.activityLog[0].userLastName).to.equal(\"LastName\");",
+							"    pm.expect(jsonData.activityLogPage.activityLog[0].activityType).to.equal(\"LIKE\");",
+							"    pm.expect(jsonData.activityLogPage.activityLog[0].profilePictureUrl).to.equal(\"Avatar_image_2\");",
+							"    ",
+							"    pm.expect(jsonData.activityLogPage.activityLog[1].listGuid).to.equal(pm.variables.get(\"listGuid\"));",
+							"    pm.expect(jsonData.activityLogPage.activityLog[1].userGuid).to.equal(pm.variables.get(\"userGuid\"));",
+							"    pm.expect(jsonData.activityLogPage.activityLog[1].userLastName).to.equal(\"LastName\");",
+							"    pm.expect(jsonData.activityLogPage.activityLog[1].activityType).to.equal(\"ADD_ITEM\");",
+							"    pm.expect(jsonData.activityLogPage.activityLog[1].profilePictureUrl).to.equal(\"Avatar_image_2\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/{{listGuid}}/activitylog?userGuid={{userGuid}}&offset=0&limit=100",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"{{listGuid}}",
+						"activitylog"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{userGuid}}"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetListsAll",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "570b9891-b9ac-4763-825f-692a94ceb7fd",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"   pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains lists data\", function () {",
+							"     pm.expect(jsonData.listsPresentation.lists[0].listGuid).to.equal(pm.variables.get(\"collaboratorList1\"));",
+							"     pm.expect(jsonData.listsPresentation.lists[0].listType).to.equal(\"C\");",
+							"     pm.expect(jsonData.listsPresentation.lists[1].listGuid).to.equal(pm.variables.get(\"listGuid\"));",
+							"     pm.expect(jsonData.listsPresentation.lists[1].listType).to.equal(\"C\");",
+							"     pm.expect(jsonData.listsPresentation.lists[2].listGuid).to.equal(pm.variables.get(\"wishlistGuid\"));",
+							"     pm.expect(jsonData.listsPresentation.lists[2].listType).to.equal(\"W\");",
+							"});",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/lists/v1/lists/all?userGuid={{userGuid}}",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"lists",
+						"v1",
+						"lists",
+						"all"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{userGuid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetListsCollaborative",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2e9cc309-cb06-43fa-a480-7f542de6ecaa",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"   pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains list collaborator data\", function () {",
+							"    pm.expect(jsonData.listsPresentation.lists.listCollaborator[0].listGuid).to.equal(pm.variables.get(\"collaboratorList2\"));",
+							"    pm.expect(jsonData.listsPresentation.lists.listCollaborator[0].listType).to.equal(\"C\");",
+							"    pm.expect(jsonData.listsPresentation.lists.listCollaborator[0].userGuid).to.equal(pm.variables.get(\"collaboratorGuid1\"));",
+							"});",
+							"",
+							"pm.test(\"Response contains list owner data\", function () {",
+							"    pm.expect(jsonData.listsPresentation.lists.listOwner[0].listGuid).to.equal(pm.variables.get(\"listGuid\"));",
+							"    pm.expect(jsonData.listsPresentation.lists.listOwner[0].listType).to.equal(\"C\");",
+							"    pm.expect(jsonData.listsPresentation.lists.listOwner[0].userGuid).to.equal(pm.variables.get(\"userGuid\"));",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/all?userGuid={{userGuid}}",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"all"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{userGuid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UserCollaborators",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "17b95965-7153-498d-af6d-8edc335f400a",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response contains collaborators data\", function () {",
+							"    pm.expect(jsonData.CollaborativeListResponse.collaborators[0].userGuid).to.equal(pm.variables.get(\"collaboratorGuid1\"));",
+							"    pm.expect(jsonData.CollaborativeListResponse.collaborators[0].lastName).to.equal(\"LastName3\");",
+							"});",
+							"",
+							"postman.setNextRequest('GetListDetails');"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/userCollaborators?userGuid={{collaboratorGuid2}}",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"userCollaborators"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{collaboratorGuid2}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetListCollaborators",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "28ed4ce9-74b1-4a9c-acee-e6039af6fbb7",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"    pm.response.to.have.status(596);",
+							"});",
+							"",
+							"pm.test(\"Response contains collaborators data\", function () {",
+							"    pm.expect(jsonData.CollaborativeListResponse.collaborators[0].userGuid).to.equal(pm.variables.get(\"collaboratorGuid1\"));",
+							"    pm.expect(jsonData.CollaborativeListResponse.collaborators[0].listGuid).to.equal(pm.variables.get(\"collaboratorList3\"));",
+							"    pm.expect(jsonData.CollaborativeListResponse.collaborators[0].privilege).to.equal(\"LIKE\");",
+							"    pm.expect(jsonData.CollaborativeListResponse.collaborators[0].lastName).to.equal(\"LastName3\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/{{collaboratorList2}}/collaborators",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"{{collaboratorList2}}",
+						"collaborators"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetListDetails",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ac0c7ff9-2be8-4315-89fc-e81a7226fd23",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Response have 200 OK status\", function(){",
+							"   pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response have correct view and owner data\", function(){",
+							"   pm.expect(jsonData.collaborativeListDetails.viewer.guid).to.equal(pm.variables.get(\"collaboratorGuid2\"));",
+							"   pm.expect(jsonData.collaborativeListDetails.viewer.lastName).to.equal(\"LastName4\");",
+							"   pm.expect(jsonData.collaborativeListDetails.viewer.profilePicture).to.equal(\"Avatar_image_1\");",
+							"   pm.expect(jsonData.collaborativeListDetails.owner.guid).to.equal(pm.variables.get(\"collaboratorGuid2\"));",
+							"   pm.expect(jsonData.collaborativeListDetails.owner.profilePicture).to.equal(\"Avatar_image_1\");",
+							"   pm.expect(jsonData.collaborativeListDetails.owner.lastName).to.equal(\"LastName4\");",
+							"});",
+							"",
+							"pm.test(\"Response have correct list data\", function(){",
+							"   pm.expect(jsonData.collaborativeListDetails.listGuid).to.equal(pm.variables.get(\"collaboratorList3\"));",
+							"   pm.expect(jsonData.collaborativeListDetails.name).to.equal(\"TEST NAME 3\");",
+							"   pm.expect(jsonData.collaborativeListDetails.numberOfCollaborators).to.equal(1);",
+							"   pm.expect(jsonData.collaborativeListDetails.collaborators[0].userGuid).to.equal(pm.variables.get(\"collaboratorGuid1\"));",
+							"   pm.expect(jsonData.collaborativeListDetails.collaborators[0].listGuid).to.equal(pm.variables.get(\"collaboratorList3\"));",
+							"   pm.expect(jsonData.collaborativeListDetails.collaborators[0].privilege).to.equal(\"LIKE\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/{{collaboratorList3}}/details?userGuid={{collaboratorGuid2}}",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"{{collaboratorList3}}",
+						"details"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{collaboratorGuid2}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RemoveCollaborativeList",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "47216765-13d9-4a43-bf97-3dbce6f53a1c",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response have 204 status\", function(){",
+							"   pm.response.to.have.status(204);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/{{listGuid}}?userGuid={{userGuid}}",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"{{listGuid}}"
+					],
+					"query": [
+						{
+							"key": "userGuid",
+							"value": "{{userGuid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteAvatar",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "72c0a245-6ee2-4491-acce-2f0e95863602",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response have 204 status\", function(){",
+							"   pm.response.to.have.status(204);",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{host3}}/collaborative/v1/lists/avatar/{{collaboratorGuid2}}",
+					"host": [
+						"{{host3}}"
+					],
+					"path": [
+						"collaborative",
+						"v1",
+						"lists",
+						"avatar",
+						"{{collaboratorGuid2}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

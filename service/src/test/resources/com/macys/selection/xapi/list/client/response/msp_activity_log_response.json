@@ -1,0 +1,23 @@
+{
+  "activityLogPage": {
+    "totalNumberOfLogs": 10,
+    "activityLog": [
+      {
+        "userGuid": "guid_123",
+        "listGuid": "guid_631116",
+        "activityType": "LIKE",
+        "upcId": 345,
+        "createdDate": "2018-07-25T14:32:44.057",
+        "lastModifiedDate": "2018-07-25T14:32:44.057"
+      },
+      {
+        "userGuid": "guid_345",
+        "listGuid": "guid_631116",
+        "activityType": "DISLIKE",
+        "upcId": 345,
+        "createdDate": "2018-07-25T14:32:57.428",
+        "lastModifiedDate": "2018-07-25T14:32:57.428"
+      }
+    ]
+  }
+}

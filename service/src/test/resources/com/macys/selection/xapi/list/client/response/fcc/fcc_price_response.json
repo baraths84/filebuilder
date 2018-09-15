@@ -1,0 +1,10 @@
+{
+  "originalPrice": 78,
+  "retailPrice": 78,
+  "priceType": 0,
+  "saleValue": 10,
+  "intermediateSaleValue": 11,
+  "displayCode": "dcode",
+  "basePriceType": 1,
+  "onSale": true
+}

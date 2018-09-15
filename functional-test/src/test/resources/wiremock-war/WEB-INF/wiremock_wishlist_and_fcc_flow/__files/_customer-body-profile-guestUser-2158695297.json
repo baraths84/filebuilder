@@ -1,0 +1,15 @@
+{
+  "user": {
+    "id": 2158695297,
+    "guid": "e3da5f5b-4576-4e3a-a2fd-3f29d2916614",
+    "displayProfileSmartPrompt": true,
+    "profileAddress": {
+      "addressID": -1
+    },
+    "userMalicious": false,
+    "guestUser": false,
+    "actionId": 0,
+    "prodId": 0,
+    "skipEmailCommunication": false
+  }
+}

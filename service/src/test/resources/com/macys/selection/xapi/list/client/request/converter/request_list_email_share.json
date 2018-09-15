@@ -1,0 +1,1 @@
+{"EmailShare":{"from":"testFrom","to":"testTo","message":"testMessage","link":"testLink","firstName":"testFirstName","lastName":"testLastName","items":[{"itemGuid":"testItemGuid","upcNumber":123,"productId":321,"productName":"testProductName","imageUrl":"testImageUrl"}]}}

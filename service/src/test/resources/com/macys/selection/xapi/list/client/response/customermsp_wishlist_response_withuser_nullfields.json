@@ -1,0 +1,312 @@
+{
+  "list": {
+    "listGuid": "da20bf42-7481-41c2-ba1c-08dc344345e2",
+    "name": "The most interesting list",
+    "listType": "W",
+    "defaultList": true,
+    "onSaleNotify": false,
+    "searchable": true,
+    "numberOfItems": 5,
+    "showPurchaseInfo": true,
+    "createdDate": "2017-11-16 14:04:32.281372",
+    "lastModified": "2017-11-21 15:29:06.225494",
+    "links": [
+      {
+        "rel": "user",
+        "ref": "http://api.qa14codemacys.fds.com/customer/v1/users/userdetails/getuser?userguid=de15eeab-1502-47b5-bf3e-b998d932a967"
+      },
+      {
+        "rel": "self",
+        "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists?userguid=de15eeab-1502-47b5-bf3e-b998d932a967"
+      },
+      {
+        "rel": "items",
+        "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists/da20bf42-7481-41c2-ba1c-08dc344345e2?_expand=items"
+      }
+    ],
+    "user": {
+      "id": null,
+      "guid": null,
+      "profileAddress": null,
+      "guestUser": null
+    },
+    "items": [
+      {
+        "itemGuid": "e6691ea4-0db2-4949-aa5b-8d43bdbf7e0e",
+        "ItemId": 1123209,
+        "addedDate": "2017-11-22T14:20:18.529",
+        "lastModified": "2017-11-22 14:20:18.529151",
+        "retailPriceWhenAdded": 50,
+        "retailPriceDropAfterAddedToList": 0,
+        "retailPriceDropPercentage": 0,
+        "qtyRequested": 4,
+        "qtyStillNeeded": 0,
+        "upc": {
+          "id": 52582,
+          "upcNumber": 721074333220,
+          "color": "No Color",
+          "price": {
+            "retailPrice": 50,
+            "originalPrice": 100,
+            "intermediateSalesValue": 80,
+            "salesValue": 50,
+            "onSale": true,
+            "upcOnSale": false,
+            "expirationDate": "9999-12-31T18:59:59.000",
+            "priceType": 23,
+            "priceTypeText": "Deal of the Day",
+            "basePriceType": 0,
+            "intermediatePriceLabel": "Was",
+            "retailPriceLabel": "Sale"
+          },
+          "availability": {
+            "available": true,
+            "upcAvailabilityMessage": "In Stock: Usually ships within 2 business days.",
+            "inStoreEligible": true,
+            "orderMethod": "POOL"
+          },
+          "product": {
+            "id": 22805,
+            "name": "Lenox Eternal Gold 4-Piece Hostess Set",
+            "active": true,
+            "primaryImage": "365125.fpx",
+            "imageURL": "5/optimized/365125_fpx.tif",
+            "reviewStatistics": {
+              "averageRating": 4.3333,
+              "reviewCount": 3
+            },
+            "live": true,
+            "available": true
+          }
+        },
+        "product": {
+          "id": 22805,
+          "name": "Lenox Eternal Gold 4-Piece Hostess Set",
+          "active": true,
+          "primaryImage": "365125.fpx",
+          "imageURL": "5/optimized/365125_fpx.tif",
+          "reviewStatistics": {
+            "averageRating": 4.3333,
+            "reviewCount": 3
+          },
+          "live": true,
+          "available": true,
+          "price": {
+            "retailPrice": 50,
+            "originalPrice": 100,
+            "intermediateSalesValue": 80,
+            "salesValue": 0,
+            "onSale": true,
+            "upcOnSale": false,
+            "priceType": 23,
+            "priceTypeText": "Deal of the Day",
+            "priceTypeApplicableToAllUPCs": true,
+            "multiplePriceTypesExist": false,
+            "basePriceType": 0,
+            "intermediatePriceLabel": "Was",
+            "retailPriceLabel": "Sale",
+            "retailPriceHigh": 0
+          },
+          "multipleUpc": false
+        }
+      },
+      {
+        "itemGuid": "385103be-7d0c-48d5-8a68-a6f674c8ed2a",
+        "ItemId": 1093185,
+        "addedDate": "2017-11-21T17:26:09.834",
+        "lastModified": "2017-11-21 17:26:18.403136",
+        "retailPriceWhenAdded": 899,
+        "retailPriceDropAfterAddedToList": 0,
+        "retailPriceDropPercentage": 0,
+        "qtyRequested": 8,
+        "qtyStillNeeded": 0,
+        "upc": {
+          "id": 32576435,
+          "upcNumber": 1807338,
+          "color": "Mocha Grey",
+          "price": {
+            "retailPrice": 899,
+            "originalPrice": 899,
+            "intermediateSalesValue": 0,
+            "salesValue": 0,
+            "onSale": false,
+            "upcOnSale": false,
+            "priceType": 0,
+            "basePriceType": 0
+          },
+          "availability": {
+            "available": true,
+            "upcAvailabilityMessage": "Please call 1-800-BUY-MACY to confirm availability and schedule delivery.",
+            "inStoreEligible": false,
+            "orderMethod": "CALLF"
+          },
+          "product": {
+            "id": 1433999,
+            "name": "Radley Fabric Sofa, Created for Macy's",
+            "active": true,
+            "primaryImage": "2073738.fpx",
+            "imageURL": "8/optimized/2073738_fpx.tif",
+            "reviewStatistics": {
+              "averageRating": 4.7054,
+              "reviewCount": 129
+            },
+            "phoneOnly": "To purchase furniture, please call us toll free at 1-800-BUY-MACYS Monday-Friday, 9am-9pm, Saturday 9am-7pm and Sunday 11am-7pm to place your order.",
+            "live": true,
+            "available": true
+          }
+        }
+      },
+      {
+        "itemGuid": "67b3bca3-f77c-46ea-87f6-4132c694a3f1",
+        "ItemId": 1093182,
+        "addedDate": "2017-11-21T17:15:29.516",
+        "lastModified": "2017-11-21 17:15:29.516229",
+        "retailPriceWhenAdded": 1699,
+        "retailPriceDropAfterAddedToList": 0,
+        "retailPriceDropPercentage": 0,
+        "qtyRequested": 4,
+        "qtyStillNeeded": 0,
+        "upc": {
+          "id": 37279890,
+          "upcNumber": 842369103899,
+          "color": "Brown",
+          "price": {
+            "retailPrice": 1699,
+            "originalPrice": 1699,
+            "intermediateSalesValue": 0,
+            "salesValue": 0,
+            "onSale": false,
+            "upcOnSale": false,
+            "priceType": 0,
+            "basePriceType": 0
+          },
+          "availability": {
+            "available": true,
+            "upcAvailabilityMessage": "Direct from vendor: usually ships within 3 business days.",
+            "inStoreEligible": true,
+            "orderMethod": "DROP"
+          },
+          "product": {
+            "id": 4734880,
+            "name": "Elmen 4-Pc. Chat Set, Quick Ship",
+            "active": true,
+            "primaryImage": "8900711.fpx",
+            "imageURL": "1/optimized/8900711_fpx.tif",
+            "clickToCall": "N",
+            "live": true,
+            "available": true
+          }
+        },
+        "product": {
+          "id": 4734880,
+          "name": "Elmen 4-Pc. Chat Set, Quick Ship",
+          "active": true,
+          "primaryImage": "8900711.fpx",
+          "imageURL": "1/optimized/8900711_fpx.tif",
+          "clickToCall": "N",
+          "live": true,
+          "available": true,
+          "price": {
+            "retailPrice": 1699,
+            "originalPrice": 1699,
+            "intermediateSalesValue": 0,
+            "salesValue": 0,
+            "onSale": false,
+            "upcOnSale": false,
+            "priceType": 0,
+            "basePriceType": 0,
+            "retailPriceHigh": 0
+          },
+          "multipleUpc": false
+        }
+      },
+      {
+        "itemGuid": "9733a7a5-a036-42d0-9ae3-acdd8dadafe4",
+        "ItemId": 1093176,
+        "addedDate": "2017-11-21T15:58:46.447",
+        "lastModified": "2017-11-21 15:58:46.447345",
+        "retailPriceWhenAdded": 0,
+        "retailPriceDropAfterAddedToList": 0,
+        "retailPriceDropPercentage": 0,
+        "qtyRequested": 4,
+        "qtyStillNeeded": 0,
+        "upc": {
+          "id": 37288131,
+          "upcNumber": 719220539619,
+          "price": {
+            "retailPrice": 0,
+            "originalPrice": 0,
+            "intermediateSalesValue": 0,
+            "salesValue": 0,
+            "onSale": false,
+            "upcOnSale": false,
+            "priceType": 0,
+            "basePriceType": 0
+          },
+          "availability": {
+            "available": false,
+            "inStoreEligible": false
+          },
+          "product": {
+            "id": 4395017,
+            "name": "Tommy Hilfiger Men's Talon Colorblocked T-Shirt",
+            "active": true,
+            "primaryImage": "8521941.fpx",
+            "imageURL": "1/optimized/8521941_fpx.tif",
+            "live": false,
+            "available": false
+          }
+        }
+      },
+      {
+        "itemGuid": "b59dda38-b566-4b0a-861a-9cde0194adba",
+        "ItemId": 973002,
+        "addedDate": "2017-11-16T14:08:33.201",
+        "lastModified": "2017-11-16 14:08:33.218753",
+        "retailPriceWhenAdded": 99,
+        "retailPriceDropAfterAddedToList": 0,
+        "retailPriceDropPercentage": 0,
+        "qtyRequested": 1,
+        "qtyStillNeeded": 0,
+        "upc": {
+          "id": 10855,
+          "upcNumber": 91709210890,
+          "color": "No Color",
+          "price": {
+            "retailPrice": 99,
+            "originalPrice": 143,
+            "intermediateSalesValue": 0,
+            "salesValue": 99,
+            "onSale": true,
+            "upcOnSale": false,
+            "expirationDate": "9999-12-31T18:59:59.000",
+            "priceType": 3,
+            "basePriceType": 0,
+            "originalPriceLabel": "Reg.",
+            "retailPriceLabel": "Sale"
+          },
+          "availability": {
+            "available": true,
+            "upcAvailabilityMessage": "In Stock: Usually ships within 3 business days.",
+            "inStoreEligible": true,
+            "orderMethod": "STR1"
+          },
+          "product": {
+            "id": 1310,
+            "name": "Lenox Federal Platinum 5-Piece Place Setting",
+            "active": true,
+            "primaryImage": "751025.fpx",
+            "imageURL": "5/optimized/751025_fpx.tif",
+            "reviewStatistics": {
+              "averageRating": 4.7059,
+              "reviewCount": 17
+            },
+            "live": true,
+            "available": true
+          }
+        }
+      }
+    ],
+    "listId": 1071000
+  }
+}

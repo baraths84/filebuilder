@@ -1,0 +1,19 @@
+{
+    "CustomerList": {
+        "user": {
+            "id": "201336579"
+        },
+        "list": [
+            {
+                "items": [
+                    {
+                        "qtyRequested": "1",
+                        "upc": {
+                            "id": "37509092"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

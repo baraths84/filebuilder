@@ -1,0 +1,21 @@
+{
+  "list": {
+    "listGuid": "c3e6a1b9-092d-4ac5-8b09-2cbd9841e202",
+    "name": "test's List",
+    "listType": "W",
+    "defaultList": true,
+    "onSaleNotify": false,
+    "searchable": false,
+    "numberOfItems": 4,
+    "showPurchaseInfo": true,
+    "createdDate": "2017-12-01 21:38:57.452689",
+    "lastModified": "2017-12-01 21:38:57.452689",
+    "imageUrlsList": [],
+    "user": {
+      "id": 201306420,
+      "guid": "4b61ee86-c46e-4f62-b97a-f52a20b512e8",
+      "guestUser": false
+    },
+    "listId": 10680231
+  }
+}

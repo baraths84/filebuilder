@@ -1,0 +1,25 @@
+{"list": {
+  "listGuid": "8c15d7d8-d71c-4fe8-8724-eca38ef4bf6f",
+  "name": "test's List",
+  "listType": "W",
+  "defaultList": true,
+  "onSaleNotify": false,
+  "searchable": false,
+  "numberOfItems": 1,
+  "showPurchaseInfo": true,
+  "createdDate": "2001-05-22T23:01:49.008",
+  "lastModified": "2008-10-11T17:23:43.453",
+  "userId": 55250007,
+  "userGuid": "74eddb1d-a22f-4bb3-b68c-55250007",
+  "items": [   {
+    "itemGuid": "0cba5e7f-3715-403f-a8ff-7c4069a5649b",
+    "itemId": 10635108,
+    "addedDate": "2001-05-22T23:01:49.008",
+    "lastModified": "2008-10-11 17:23:43.453",
+    "retailPriceWhenAdded": 195,
+    "qtyRequested": 1,
+    "priority": "H",
+    "upcId": 36846878
+  }],
+  "listId": 10710738
+}}

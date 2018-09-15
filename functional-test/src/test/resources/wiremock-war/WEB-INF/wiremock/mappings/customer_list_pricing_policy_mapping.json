@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/customer/v1/lists/7184c6f5-32c6-4e1f-b92f-098c9c07b8ba?_expand=items&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "customer_list_pricing.json",
+    "headers": {
+      "Content-Type": "application/json",
+      "Cache-Control": "max-age=86400"
+    }
+  }
+}

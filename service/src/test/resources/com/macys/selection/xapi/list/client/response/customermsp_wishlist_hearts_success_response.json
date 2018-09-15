@@ -1,0 +1,20 @@
+{
+  "list": {
+    "listGuid": "8db568b8-8d17-48b4-8bbb-23d655146fc9",
+    "name": "qa test list",
+    "listType": "W",
+    "defaultList": true,
+    "onSaleNotify": false,
+    "searchable": false,
+    "numberOfItems": 6,
+    "showPurchaseInfo": true,
+    "createdDate": "2017-11-14 14:13:45.990677",
+    "lastModified": "2017-11-14 14:16:55.945017",
+    "imageUrlsList": [],
+    "user": {
+      "id": 2158575042,
+      "guestUser": false
+    },
+    "listId": 1071024
+  }
+}

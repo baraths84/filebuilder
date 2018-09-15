@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "error": [
+      {
+        "errorCode": "10121",
+        "message": "Invalid input"
+      }
+    ]
+  }
+}

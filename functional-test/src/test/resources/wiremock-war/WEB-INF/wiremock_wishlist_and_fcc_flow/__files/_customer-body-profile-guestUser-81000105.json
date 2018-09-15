@@ -1,0 +1,15 @@
+{
+  "user": {
+    "id": 81000105,
+    "guid": "81000105-81000105",
+    "displayProfileSmartPrompt": true,
+    "profileAddress": {
+      "addressID": -1
+    },
+    "userMalicious": false,
+    "guestUser": true,
+    "actionId": 0,
+    "prodId": 0,
+    "skipEmailCommunication": false
+  }
+}

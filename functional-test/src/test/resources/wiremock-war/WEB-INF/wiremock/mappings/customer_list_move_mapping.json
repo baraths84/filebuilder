@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/customer/v1/lists/7dfa1ece-db69-4369-a222-8ecabc2ad0c9/items/move?itemGuid=3577fbc5-3385-4bc1-866f-36078928bbcd&userid=201306153&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE"
+  },
+  "response": {
+    "status": 200
+  }
+}

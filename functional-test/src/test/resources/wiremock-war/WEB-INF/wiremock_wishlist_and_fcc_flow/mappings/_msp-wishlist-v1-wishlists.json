@@ -1,0 +1,21 @@
+{
+  "request" : {
+    "url" : "/api/selection/list/v1/wishlists?userFirstName=myfirstname&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "_msp-wishlist—body-v1-wishlists.json",
+    "headers" : {
+      "X-Powered-By" : "Undertow/1",
+      "X-Macys-RequestId" : "5842d1be-682f-470c-88cd-851212de2cfe",
+      "Server" : "WildFly/11",
+      "X-Macys-ClientId" : "list-xAPI",
+      "Date" : "Mon, 18 Jun 2018 16:15:28 GMT",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "Content-Type" : "application/json",
+      "X-Application-Context" : "msp-wishlist:8080"
+    }
+  }
+}

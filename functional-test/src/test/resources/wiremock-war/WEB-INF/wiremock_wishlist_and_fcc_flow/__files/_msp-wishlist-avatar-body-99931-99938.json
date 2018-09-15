@@ -1,0 +1,38 @@
+{
+  "profilePictures": {
+    "profilePicture": [
+      {
+        "userGuid": "99931-99931",
+        "avatar": "avatar image 1"
+      },
+      {
+        "userGuid": "99932-99932",
+        "avatar": "avatar image 2"
+      },
+      {
+        "userGuid": "99933-99933",
+        "avatar": "avatar image 3"
+      },
+      {
+        "userGuid": "99934-99934",
+        "avatar": null
+      },
+      {
+        "userGuid": "99935-99935",
+        "avatar": ""
+      },
+      {
+        "userGuid": "99936-99936",
+        "avatar": "avatar image 2 avatar image 2 avatar image 2"
+      },
+      {
+        "userGuid": "99937-99937",
+        "avatar": "avatar image #1!"
+      },
+      {
+        "userGuid": "99938-99938",
+        "avatar": "avatar image 8"
+      }
+    ]
+  }
+}

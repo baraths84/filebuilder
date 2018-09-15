@@ -1,0 +1,12 @@
+{
+	"errors": {
+		"error": [
+			{
+				"requestId": "730997a5-dee2-404c-b16b-1b7b6c1edfea",
+				"clientId": "list-xAPI",
+				"errorCode": "10134",
+				"message": "Wishlist with same name already exists"
+			}
+		]
+	}
+}

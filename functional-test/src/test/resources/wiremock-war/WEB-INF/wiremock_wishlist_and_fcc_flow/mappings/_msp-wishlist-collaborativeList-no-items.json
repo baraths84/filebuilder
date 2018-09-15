@@ -1,0 +1,21 @@
+{
+  "request" : {
+    "url" : "/api/selection/list/v1/wishlists/hfs9df9-asd9v0-c359-4de9-b083-987-10001008?_expand=items&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "_msp-wishlist—body-collaborativeList-no-items.json",
+    "headers" : {
+      "X-Powered-By" : "Undertow/1",
+      "X-Macys-RequestId" : "99d6baef-4858-4124-baaa-864a02e85eaa",
+      "Server" : "WildFly/11",
+      "X-Macys-ClientId" : "list-xAPI",
+      "Date" : "Mon, 18 Jun 2018 16:15:36 GMT",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "Content-Type" : "application/json",
+      "X-Application-Context" : "msp-wishlist:8080"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "list": {
+    "listGuid": "a95cc4b8-453f-4767-93ae-7f956e04a84",
+    "name": "Wishlist Default",
+    "listType": "W",
+    "defaultList": true,
+    "onSaleNotify": false,
+    "searchable": true,
+    "numberOfItems": 1,
+    "showPurchaseInfo": true,
+    "createdDate": "2016-02-06T13:31:28.251",
+    "lastModified": "2016-02-06T13:31:28.251",
+    "userId": 123,
+    "listId": 1
+  }
+}

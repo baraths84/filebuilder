@@ -1,0 +1,77 @@
+{
+  "list": {
+    "listGuid": "8c15d7d8-d71c-4fe8-8724-eca38ef4bf6f",
+    "name": "test's List",
+    "listType": "W",
+    "defaultList": true,
+    "onSaleNotify": false,
+    "searchable": false,
+    "numberOfItems": 1,
+    "showPurchaseInfo": true,
+    "createdDate": "2017-12-21 18:55:26.899783",
+    "lastModified": "2017-12-21 18:55:26.899783",
+    "links": [
+      {
+        "rel": "user",
+        "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/users/userdetails/getuser?userid=201337089"
+      },
+      {
+        "rel": "self",
+        "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/lists?userid=201337089"
+      },
+      {
+        "rel": "items",
+        "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/lists/8c15d7d8-d71c-4fe8-8724-eca38ef4bf6f?_expand=items"
+      }
+    ],
+    "items": [
+      {
+        "itemGuid": "0cba5e7f-3715-403f-a8ff-7c4069a5649b",
+        "ItemId": 10635108,
+        "addedDate": "2017-12-21T18:55:26.901",
+        "lastModified": "2017-12-21 18:55:26.901883",
+        "retailPriceWhenAdded": 195,
+        "retailPriceDropAfterAddedToList": 0,
+        "retailPriceDropPercentage": 0,
+        "qtyRequested": 1,
+        "qtyStillNeeded": 0,
+        "upc": {
+          "id": 36846878,
+          "upcNumber": 190866138945,
+          "color": "Lighthouse Navy",
+          "size": "2",
+          "price": {
+            "retailPrice": 195,
+            "originalPrice": 195,
+            "intermediateSalesValue": 0,
+            "salesValue": 0,
+            "onSale": false,
+            "upcOnSale": false,
+            "priceType": 0,
+            "basePriceType": 0
+          },
+          "availability": {
+            "available": true,
+            "upcAvailabilityMessage": "In Stock: Usually ships within 3 business days.",
+            "inStoreEligible": true,
+            "orderMethod": "STR1"
+          },
+          "product": {
+            "id": 4426418,
+            "name": "Lauren Ralph Lauren Georgette-Cape Jersey Gown",
+            "active": true,
+            "primaryImage": "8284840.fpx",
+            "imageURL": "0/optimized/8284840_fpx.tif",
+            "reviewStatistics": {
+              "averageRating": 5,
+              "reviewCount": 3
+            },
+            "live": true,
+            "available": true
+          }
+        }
+      }
+    ],
+    "listId": 10710738
+  }
+}

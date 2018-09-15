@@ -1,0 +1,10 @@
+{
+  "errors":{
+    "error":[
+      {
+        "errorCode":"10122",
+        "message":"Invalid list guid"
+      }
+    ]
+  }
+}

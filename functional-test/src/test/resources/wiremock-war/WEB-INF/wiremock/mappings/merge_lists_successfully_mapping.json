@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "equalToJson" : "{\"wishListRequestDTO\":{\"guestUserId\":11110000,\"userId\":22220000}}"
+      }
+    ],
+    "url": "/api/customer/v2/wishlists/merge?_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE"
+  },
+  "response": {
+    "status": 200
+  }
+}

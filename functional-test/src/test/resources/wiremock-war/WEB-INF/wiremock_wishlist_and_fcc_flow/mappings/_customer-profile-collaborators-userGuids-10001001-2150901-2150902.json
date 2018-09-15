@@ -1,0 +1,19 @@
+{
+  "request" : {
+    "url" : "/api/customer/v2/profile/list?userGuids=10001001-10001001-10001001%2C2150901-2150901-2150901%2C2150902-2150902-2150902&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "_customer-body-profile-collaborators-userGuids-10001001-2150901-2150902.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "X-Macys-Log" : "SDPT='0' UCT='0' SCT='0' GUID='' UID='' TOKEN='GUEST'",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "list-xAPI",
+      "X-Macys-RequestId" : "aab66776-50a5-4d3b-843e-eda38a9790ec",
+      "Content-Type" : "application/json",
+      "Date" : "Mon, 18 Jun 2018 10:19:43 GMT"
+    }
+  }
+}

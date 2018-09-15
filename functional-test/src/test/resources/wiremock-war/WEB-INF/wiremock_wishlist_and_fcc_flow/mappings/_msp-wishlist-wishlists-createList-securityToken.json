@@ -1,0 +1,31 @@
+{
+  "request" : {
+    "headers": {
+      "X-Macys-SecurityToken": {
+        "equalTo": "13_bRM7cT4dR1hDSZLmddSuNqzDQ5gqG4nRYA5i5lYsDJGI6LZwqatRga2Bww4V7VDoAr8Z09/sS6p0SgVJp9bLzg"
+      }
+    },
+    "url" : "/api/selection/list/v1/wishlists?guestUser=false&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "POST",
+    "bodyPatterns": [
+      {
+        "equalToJson" : "{\"list\":{\"name\":\"Test List\",\"listType\":\"w\",\"userId\":2158695297,\"userGuid\":\"e3da5f5b-4576-4e3a-a2fd-3f29d2916614\",\"searchable\":false}}"
+      }
+    ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "_msp-wishlist—body-wishlists-createList.json",
+    "headers" : {
+      "X-Powered-By" : "Undertow/1",
+      "X-Macys-RequestId" : "02843915-7649-41d2-9887-0173e5770882",
+      "Server" : "WildFly/11",
+      "X-Macys-ClientId" : "list-xAPI",
+      "Date" : "Mon, 18 Jun 2018 16:15:37 GMT",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "Content-Type" : "application/json",
+      "X-Application-Context" : "msp-wishlist:8080"
+    }
+  }
+}

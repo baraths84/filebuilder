@@ -1,0 +1,26 @@
+{"list": {
+  "listGuid": "7a58f9f7-4926-4f14-b986-a8609c488d39",
+  "name": "Test List",
+  "listType": "W",
+  "defaultList": false,
+  "onSaleNotify": false,
+  "searchable": false,
+  "numberOfItems": 1,
+  "showPurchaseInfo": true,
+  "createdDate": "2001-05-22T23:01:49.008",
+  "lastModified": "2008-10-11T17:23:43.453",
+  "userId": 201336579,
+  "items":    [
+    {
+      "itemGuid": "f4fa2368-1c07-4da6-8ae1-1eec7cef7b23",
+      "itemId": 112501032,
+      "addedDate": "2001-05-22T23:01:49.008",
+      "lastModified": "2008-10-11 17:23:43.453",
+      "retailPriceWhenAdded": 0,
+      "qtyRequested": 1,
+      "upcId": 37509092,
+      "productId": 3014013
+    }
+  ],
+  "listId": 112500103
+}}

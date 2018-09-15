@@ -1,0 +1,22 @@
+{
+    "list": {
+      "listGuid": "f338675e-c359-4de9-b083-9000100103",
+      "name": "some list 2",
+      "listType": "C",
+      "defaultList": true,
+      "onSaleNotify": true,
+      "searchable": true,
+      "userGuid": "90001002-90001002-90001002",
+      "items": [
+        {
+          "upcId": 9000101
+        },
+        {
+          "upcId": 9000102
+        }
+      ],
+      "listId": 9000100202
+    }
+  }
+
+

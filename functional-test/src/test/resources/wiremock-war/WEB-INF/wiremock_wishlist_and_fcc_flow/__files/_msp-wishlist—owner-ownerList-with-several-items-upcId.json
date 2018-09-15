@@ -1,0 +1,53 @@
+{
+  "collaborativeLists": {
+    "lists": [
+      {
+        "listGuid": "d965e5ff-cc88-4fa9-8226-o10001002",
+        "name": "Owner list 2",
+        "listType": "C",
+        "createdDate": "2018-07-23T20:26:25.841",
+        "lastModified": "2018-07-23T20:26:25.841",
+        "userGuid": "10001002-10001002-10001002",
+        "numberOfItems": 4,
+        "items": [   {
+          "itemGuid": "70dbc1c2-3c53-49f4-9bdb-115001",
+          "itemId": 115001,
+          "addedDate": "2001-05-22T23:01:49.008",
+          "lastModified": "2008-10-11 17:23:43.453",
+          "retailPriceWhenAdded": 195,
+          "qtyRequested": 1,
+          "priority": "H",
+          "upcId": 90051
+        },{
+          "itemGuid": "70dbc1c2-3c53-49f4-9bdb-115002",
+          "itemId": 115002,
+          "addedDate": "2001-05-22T23:01:51.008",
+          "lastModified": "2008-10-11 17:23:43.453",
+          "retailPriceWhenAdded": 195,
+          "qtyRequested": 1,
+          "priority": "H",
+          "upcId": 90052
+        },{
+          "itemGuid": "70dbc1c2-3c53-49f4-9bdb-115003",
+          "itemId": 115003,
+          "addedDate": "2001-05-22T23:01:52.008",
+          "lastModified": "2008-10-11 17:23:43.453",
+          "retailPriceWhenAdded": 195,
+          "qtyRequested": 1,
+          "priority": "H",
+          "upcId": 90053
+        },{
+          "itemGuid": "70dbc1c2-3c53-49f4-9bdb-115004",
+          "itemId": 115004,
+          "addedDate": "2001-05-22T23:01:53.008",
+          "lastModified": "2008-10-11 17:23:43.453",
+          "retailPriceWhenAdded": 195,
+          "qtyRequested": 1,
+          "priority": "H",
+          "upcId": 90054
+        }
+        ]
+      }
+    ]
+  }
+}

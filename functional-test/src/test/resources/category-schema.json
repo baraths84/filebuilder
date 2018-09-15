@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "resultsperpage": {
+      "type": "integer"
+    },
+    "currentpage": {
+      "type": "integer"
+    },
+    "totalresults": {
+      "type": "integer"
+    },
+    "resptime": {
+      "type": "string"
+    },
+    "querydate": {
+      "type": "string"
+    },
+    "category": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "summary": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "categorytype": {
+                "type": "string"
+              },
+              "registryCategoryType": {
+                "type": "string"
+              },
+              "categorypageurl": {
+                "type": "string"
+              },
+              "categoryHighlight": {
+                "type": "boolean"
+              },
+              "pageId": {
+                "type": "string"
+              },
+              "pageType": {
+                "type": "string"
+              },
+              "registryPageType": {
+                "type": "string"
+              },
+              "pageTitle": {
+                "type": "string"
+              },
+              "metaDesc": {
+                "type": "string"
+              },
+              "countryEligible": {
+                "type": "boolean"
+              },
+              "clickable": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "categorytype",
+              "registryCategoryType",
+              "categorypageurl",
+              "categoryHighlight",
+              "pageId",
+              "pageType",
+              "registryPageType",
+              "pageTitle",
+              "metaDesc",
+              "countryEligible",
+              "clickable"
+            ]
+          },
+          "bopsfacetavailable": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "summary",
+          "bopsfacetavailable"
+        ]
+      }
+    }
+  },
+  "required": [
+    "resultsperpage",
+    "currentpage",
+    "totalresults",
+    "resptime",
+    "querydate",
+    "category"
+  ]
+}

@@ -1,0 +1,19 @@
+{"lists":
+{
+  "lists": [
+    {
+      "listGuid":"2e44b50c-1c11-4ed0-abe5-10001001",
+      "name": "Default list",
+      "listType": "W",
+      "defaultList": true,
+      "onSaleNotify": false,
+      "searchable": false,
+      "showPurchaseInfo": true,
+      "createdDate": "2011-12-20T23:27:37.701",
+      "lastModified": "2011-12-20T23:27:40.195",
+      "userGuid": "10001001-10001001-10001001",
+      "listId": 1000100101,
+      "numberOfItems": 0
+    }]
+}
+}

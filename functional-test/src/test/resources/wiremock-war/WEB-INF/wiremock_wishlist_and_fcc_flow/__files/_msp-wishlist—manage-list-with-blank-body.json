@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "error": [
+      {
+        "errorCode": "10111",
+        "message": "Incorrect request"
+      }
+    ]
+  }
+}

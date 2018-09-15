@@ -1,0 +1,13 @@
+{
+  "listFeedback": {
+    "listGuid": "guid_631116",
+    "itemFeedback": [
+      {
+        "itemGuid": "testItemGuid",
+        "likes": 3,
+        "dislikes": 2,
+        "feedback": "LIKE"
+      }
+    ]
+  }
+}

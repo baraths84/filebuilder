@@ -1,0 +1,131 @@
+{"list": {
+  "guid": "8396726c-68d0-4a1c-b123-ab7c4599bdb9",
+  "name": "Guest List",
+  "listType": "W",
+  "defaultList": true,
+  "onSaleNotify": false,
+  "searchable": false,
+  "numberOfItems": 1,
+  "showPurchaseInfo": true,
+  "imageUrlsList": [
+    "5/optimized/365125_fpx.tif"
+  ],
+  "items": [
+    {
+      "itemGuid": "22ea0e5d-a1b2-476b-a647-f9b5a597a312",
+      "retailPriceWhenAdded": 39,
+      "retailPriceDropAfterAddedToList": 0,
+      "retailPriceDropPercentage": 0,
+      "qtyRequested": 1,
+      "qtyStillNeeded": 0,
+      "upc": {
+        "id": 31277389,
+        "upcNumber": 20714656027,
+        "color": "Very Light",
+        "size": "XS",
+        "price": {
+          "retailPrice": 39,
+          "originalPrice": 39,
+          "intermediateSalesValue": 0,
+          "salesValue": 0,
+          "onSale": false,
+          "upcOnSale": false,
+          "priceType": 0,
+          "PriceTypeText": "test",
+          "basePriceType": 0,
+          "retailPriceHigh": 0
+        },
+        "availability": {
+          "available": true,
+          "upcAvailabilityMessage": "In Stock: Usually ships within 2 business days.",
+          "inStoreEligible": true,
+          "orderMethod": "POOL"
+        },
+        "product": {
+          "id": 813310,
+          "name": "Clinique Moisture Surge CC Cream Colour Correcting Skin Protector Broad Spectrum SPF 30, 1.4 oz",
+          "active": true,
+          "primaryImage": "1573855.fpx",
+          "imageURL": "5/optimized/1573855_fpx.tif",
+          "phoneOnly": "test",
+          "clickToCall": "test",
+          "live": true,
+          "available": true,
+          "price": {
+            "retailPrice": 39,
+            "originalPrice": 39,
+            "intermediateSalesValue": 0,
+            "salesValue": 0,
+            "onSale": false,
+            "upcOnSale": false,
+            "priceType": 0,
+            "PriceTypeText": "test",
+            "basePriceType": 0,
+            "retailPriceHigh": 0
+          },
+          "suppressReviews": false,
+          "reviewStatistics": {
+            "averageRating": 4.6095,
+            "reviewCount": 274
+          },
+          "multipleUpc": false
+        },
+        "finalPrice": {
+          "finalPrice": 372,
+          "displayFinalPrice": "Conditionally Show",
+          "productTypePromotion": "MAP",
+          "promotions": [
+            {
+              "promotionId": 19880747,
+              "promotionName": "PercentOff4_G_AS_N_SIM",
+              "global": true
+            },
+            {
+              "promotionId": 19880736,
+              "promotionName": "PercentOff3_NG_AS_N_SIM",
+              "global": false
+            }
+          ]
+        }
+
+      },
+      "product": {
+        "id": 813310,
+        "name": "Clinique Moisture Surge CC Cream Colour Correcting Skin Protector Broad Spectrum SPF 30, 1.4 oz",
+        "active": true,
+        "primaryImage": "1573855.fpx",
+        "imageURL": "5/optimized/1573855_fpx.tif",
+        "phoneOnly": "test",
+        "clickToCall": "test",
+        "live": true,
+        "available": true,
+        "price": {
+          "retailPrice": 39,
+          "originalPrice": 39,
+          "intermediateSalesValue": 0,
+          "salesValue": 0,
+          "onSale": false,
+          "upcOnSale": false,
+          "priceType": 0,
+          "PriceTypeText": "test",
+          "basePriceType": 0,
+          "retailPriceHigh": 0
+        },
+        "suppressReviews": false,
+        "reviewStatistics": {
+          "averageRating": 4.6095,
+          "reviewCount": 274
+        },
+        "multipleUpc": false
+      },
+      "promotions": [
+        {
+          "promotionId": 19873358,
+          "badgeTextAttributeValue": "FREE SHIPPING & RETURNS"
+        }
+      ],
+      "id": 10594035
+    }
+  ]
+}
+}

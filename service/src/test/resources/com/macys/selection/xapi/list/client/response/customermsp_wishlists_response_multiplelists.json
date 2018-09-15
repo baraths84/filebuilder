@@ -1,0 +1,264 @@
+{
+  "lists": {
+    "lists": [
+      {
+        "listGuid": "da20bf42-7481-41c2-ba1c-08dc344345e2",
+        "name": "The most interesting list",
+        "listType": "W",
+        "defaultList": true,
+        "onSaleNotify": false,
+        "searchable": true,
+        "numberOfItems": 5,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-11-16 14:04:32.281372",
+        "lastModified": "2017-11-21 15:29:06.225494",
+        "imageUrlsList": [
+          "5/optimized/365125_fpx.tif",
+          "8/optimized/2073738_fpx.tif",
+          "1/optimized/8900711_fpx.tif",
+          "1/optimized/8521941_fpx.tif",
+          "5/optimized/751025_fpx.tif"
+        ],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/users/userdetails/getuser?userid=2158516416"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists?userid=2158516416"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists/da20bf42-7481-41c2-ba1c-08dc344345e2?_expand=items"
+          }
+        ],
+        "user": {
+          "id": 2158516416,
+          "guid": "de15eeab-1502-47b5-bf3e-b998d932a967",
+          "profileAddress": {
+            "firstName": "first"
+          },
+          "guestUser": false
+        },
+        "listId": 1071000
+      },
+      {
+        "listGuid": "d1eef85e-d91d-4e05-965d-e7afed765aeb",
+        "name": "Wishlist 2",
+        "listType": "W",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 0,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-11-16 14:04:46.98931",
+        "lastModified": "2017-11-16 14:04:46.98931",
+        "imageUrlsList": [],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/users/userdetails/getuser?userid=2158516416"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists?userid=2158516416"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists/d1eef85e-d91d-4e05-965d-e7afed765aeb?_expand=items"
+          }
+        ],
+        "user": {
+          "id": 2158516416,
+          "guid": "de15eeab-1502-47b5-bf3e-b998d932a967",
+          "profileAddress": {
+            "firstName": "first"
+          },
+          "guestUser": false
+        },
+        "listId": 1071003
+      },
+      {
+        "listGuid": "f94d0495-6153-4c66-9ecc-c72720c84670",
+        "name": "Wishlist 8",
+        "listType": "W",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 0,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-11-16 14:06:01.840791",
+        "lastModified": "2017-11-16 14:06:01.840791",
+        "imageUrlsList": [],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/users/userdetails/getuser?userid=2158516416"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists?userid=2158516416"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists/f94d0495-6153-4c66-9ecc-c72720c84670?_expand=items"
+          }
+        ],
+        "user": {
+          "id": 2158516416,
+          "guid": "de15eeab-1502-47b5-bf3e-b998d932a967",
+          "profileAddress": {
+            "firstName": "first"
+          },
+          "guestUser": false
+        },
+        "listId": 1071021
+      },
+      {
+        "listGuid": "8e4190f1-ad67-47e1-902b-bc145f62afc4",
+        "name": "Wishlist 6",
+        "listType": "W",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 0,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-11-16 14:05:39.043112",
+        "lastModified": "2017-11-16 14:05:39.043112",
+        "imageUrlsList": [],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/users/userdetails/getuser?userid=2158516416"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists?userid=2158516416"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists/8e4190f1-ad67-47e1-902b-bc145f62afc4?_expand=items"
+          }
+        ],
+        "user": {
+          "id": 2158516416,
+          "guid": "de15eeab-1502-47b5-bf3e-b998d932a967",
+          "profileAddress": {
+            "firstName": "first"
+          },
+          "guestUser": false
+        },
+        "listId": 1071015
+      },
+      {
+        "listGuid": "b64bb964-8817-4f49-aa19-2c141c089684",
+        "name": "Wishlist 5",
+        "listType": "W",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 0,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-11-16 14:05:21.928493",
+        "lastModified": "2017-11-16 14:05:21.928493",
+        "imageUrlsList": [],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/users/userdetails/getuser?userid=2158516416"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists?userid=2158516416"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists/b64bb964-8817-4f49-aa19-2c141c089684?_expand=items"
+          }
+        ],
+        "user": {
+          "id": 2158516416,
+          "guid": "de15eeab-1502-47b5-bf3e-b998d932a967",
+          "profileAddress": {
+            "firstName": "first"
+          },
+          "guestUser": false
+        },
+        "listId": 1071012
+      },
+      {
+        "listGuid": "f80da045-fe6a-44d6-a43e-4b7c75cec5f1",
+        "name": "Wishlist 4",
+        "listType": "W",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 0,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-11-16 14:05:12.770752",
+        "lastModified": "2017-11-16 14:05:12.770752",
+        "imageUrlsList": [],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/users/userdetails/getuser?userid=2158516416"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists?userid=2158516416"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists/f80da045-fe6a-44d6-a43e-4b7c75cec5f1?_expand=items"
+          }
+        ],
+        "user": {
+          "id": 2158516416,
+          "guid": "de15eeab-1502-47b5-bf3e-b998d932a967",
+          "profileAddress": {
+            "firstName": "first"
+          },
+          "guestUser": false
+        },
+        "listId": 1071009
+      },
+      {
+        "listGuid": "e057b524-97b5-460c-9350-0f85b329a619",
+        "name": "Wishlist 3",
+        "listType": "W",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 0,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-11-16 14:05:03.170507",
+        "lastModified": "2017-11-16 14:05:03.170507",
+        "imageUrlsList": [],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/users/userdetails/getuser?userid=2158516416"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists?userid=2158516416"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.qa14codemacys.fds.com/customer/v1/lists/e057b524-97b5-460c-9350-0f85b329a619?_expand=items"
+          }
+        ],
+        "user": {
+          "id": 2158516416,
+          "guid": "de15eeab-1502-47b5-bf3e-b998d932a967",
+          "profileAddress": {
+            "firstName": "first"
+          },
+          "guestUser": false
+        },
+        "listId": 1071006
+      }
+    ]
+  }
+}

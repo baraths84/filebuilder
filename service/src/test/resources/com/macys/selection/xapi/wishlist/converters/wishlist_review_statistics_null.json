@@ -1,0 +1,64 @@
+{
+  "lists": {
+    "lists": [
+      {
+        "listGuid": null,
+        "name": null,
+        "listType": null,
+        "defaultList": null,
+        "onSaleNotify": null,
+        "searchable": null,
+        "numberOfItems": null,
+        "showPurchaseInfo": null,
+        "createdDate": null,
+        "lastModified": null,
+        "user": {
+          "id": null,
+          "guid": null,
+          "guestUser": null
+        },
+        "items": [
+          {
+            "itemGuid": null,
+            "ItemId": null,
+            "addedDate": null,
+            "lastModified": null,
+            "retailPriceWhenAdded": null,
+            "retailPriceDropAfterAddedToList": null,
+            "retailPriceDropPercentage": null,
+            "qtyRequested": null,
+            "qtyStillNeeded": null,
+            "upc": {
+              "id": null,
+              "upcNumber": null,
+              "color": null,
+              "size": null,
+              "price": {
+              },
+              "availability": {
+                "available": null,
+                "upcAvailabilityMessage": null,
+                "inStoreEligible": null,
+                "orderMethod": null
+              },
+              "product": {
+                "id": null,
+                "name": null,
+                "active": null,
+                "primaryImage": null,
+                "imageURL": null,
+                "live": null,
+                "available": null,
+			    "reviewStatistics": {
+			        "averageRating": null,
+			        "reviewCount": null
+			    }                                        
+              }
+            }
+          }
+        ],
+        "listId": null
+      }
+    ]
+  }
+}

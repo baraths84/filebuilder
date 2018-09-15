@@ -1,0 +1,1182 @@
+{
+  "product": {
+    "department": {
+      "departmentId": 615,
+      "departmentName": "TABLE LINENS"
+    },
+    "gmm": {
+      "gmmId": 47,
+      "gmmName": "HOME"
+    },
+    "id": 81666,
+    "name": "Bardwil Calandre Table Linen Collection",
+    "brand": {
+      "ozBrandId": 715,
+      "brandName": "Bardwil"
+    },
+    "price": {
+      "originalPrice": 9,
+      "originalPriceHigh": 50,
+      "originalPriceLabel": "Reg.",
+      "intermediatePrice": 4.99,
+      "intermediatePriceHigh": 29.99,
+      "intermediatePriceLabel": "Was",
+      "retailPrice": 2.99,
+      "retailPriceHigh": 19.99,
+      "retailPriceLabel": "Sale",
+      "priceType": 25,
+      "saleValue": 0,
+      "intermediateSaleValue": 0,
+      "effectiveDate": "2018-07-09T00:00:01.000",
+      "expirationDate": "2018-07-17T23:59:59.000",
+      "displayCode": "",
+      "basePriceType": 0,
+      "onSale": true,
+      "priceTypeText": "Black Friday Special",
+      "pricingPolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+      "pricingPolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=25&daysInC=17729&ID=81666",
+      "willBe": false,
+      "onEdv": false,
+      "percentageOff": 60,
+      "percentageOffHigh": 66
+    },
+    "defaultCategoryId": 17199,
+    "shipping": {
+      "notes": [],
+      "giftWrappable": false,
+      "giftMessageable": false
+    },
+    "giftWrappable": false,
+    "giftWrapId": 0,
+    "typeName": "TABLE_LINEN",
+    "taxwareCode": 0,
+    "maxQuantity": 12,
+    "comparable": true,
+    "productGroup": true,
+    "productStartDays": 167,
+    "clearanceStartDays": 17729,
+    "isNew": false,
+    "active": true,
+    "archived": false,
+    "primaryPortraitSource": "6/optimized/9223196_fpx",
+    "additionalImageSource": [],
+    "primaryImage": {
+      "imageName": "9223196.fpx"
+    },
+    "reviewStatistics": {
+      "averageRating": 2,
+      "reviewCount": 1,
+      "reviewCountNative": 0
+    },
+    "masterProductIds": [],
+    "memberProductIds": [
+      5669287,
+      5669288,
+      5669289,
+      5669290,
+      5669291
+    ],
+    "live": true,
+    "countryEligible": true,
+    "rebatesAvailable": false,
+    "checkInStoreEligibility": true,
+    "visible": true,
+    "available": true,
+    "pools": [
+      {
+        "id": 1428872,
+        "seqNumber": 9
+      },
+      {
+        "id": 1432180,
+        "seqNumber": 48590
+      },
+      {
+        "id": 1443349,
+        "seqNumber": 9
+      },
+      {
+        "id": 1513762,
+        "seqNumber": 9
+      },
+      {
+        "id": 2117592,
+        "seqNumber": 9
+      },
+      {
+        "id": 2180171,
+        "seqNumber": 9
+      },
+      {
+        "id": 2327242,
+        "seqNumber": 9
+      },
+      {
+        "id": 2367488,
+        "seqNumber": 9
+      },
+      {
+        "id": 2427307,
+        "seqNumber": 9
+      },
+      {
+        "id": 2478059,
+        "seqNumber": 9
+      },
+      {
+        "id": 2481540,
+        "seqNumber": 9
+      },
+      {
+        "id": 2492522,
+        "seqNumber": 9
+      },
+      {
+        "id": 2594508,
+        "seqNumber": 9
+      },
+      {
+        "id": 2599120,
+        "seqNumber": 9
+      },
+      {
+        "id": 2610307,
+        "seqNumber": 9
+      },
+      {
+        "id": 2702859,
+        "seqNumber": 9
+      },
+      {
+        "id": 2710603,
+        "seqNumber": 9
+      },
+      {
+        "id": 2723848,
+        "seqNumber": 9
+      },
+      {
+        "id": 2732048,
+        "seqNumber": 9
+      },
+      {
+        "id": 2737036,
+        "seqNumber": 9
+      },
+      {
+        "id": 2740414,
+        "seqNumber": 9
+      },
+      {
+        "id": 2750641,
+        "seqNumber": 9
+      },
+      {
+        "id": 2788132,
+        "seqNumber": 9
+      }
+    ],
+    "colormap": [
+      {
+        "colorwayId": 3117136,
+        "colorName": "Indigo",
+        "colorNormalName": "Blue",
+        "swatchSeqNumber": 0,
+        "swapoutSeqNumber": 0
+      }
+    ],
+    "countryExclusion": [],
+    "categories": [
+      {
+        "id": 34388,
+        "poolId": 35165615,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 25037,
+        "poolId": 35165616,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 74073,
+        "poolId": 35165617,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 54925,
+        "poolId": 35192705,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 54884,
+        "poolId": 35192707,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 9758,
+        "poolId": 35192709,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 29023,
+        "poolId": 35215279,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 75512,
+        "poolId": 35216155,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 73162,
+        "poolId": 35222444,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 169742,
+        "poolId": 35256647,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 170144,
+        "poolId": 35256650,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 172846,
+        "poolId": 35256652,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 172847,
+        "poolId": 35256654,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 172849,
+        "poolId": 35256656,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 172851,
+        "poolId": 35256658,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 188556,
+        "poolId": 35256660,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 139742,
+        "poolId": 35259908,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 79674,
+        "poolId": 35260099,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 139044,
+        "poolId": 35260745,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 169242,
+        "poolId": 35260859,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 127244,
+        "poolId": 35262293,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 24294,
+        "poolId": 35262294,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 25867,
+        "poolId": 35262295,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 188569,
+        "poolId": 35262296,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 173142,
+        "poolId": 35262297,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 198152,
+        "poolId": 35262298,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 9545,
+        "poolId": 35262617,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 140358,
+        "poolId": 35264502,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 139042,
+        "poolId": 35264595,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 24586,
+        "poolId": 35264872,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 137743,
+        "poolId": 35266415,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 141642,
+        "poolId": 35266416,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 54287,
+        "poolId": 35269847,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 25037,
+        "poolId": 35269850,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 191052,
+        "poolId": 35272976,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      },
+      {
+        "id": 17199,
+        "poolId": 35275490,
+        "poolName": "CATEGORY_NAV",
+        "seqNum": 9
+      }
+    ],
+    "sizes": [],
+    "urlMetadata": {
+      "urls": [
+        {
+          "urltype": "Image",
+          "urlformat": "https://slimages.macys.com/is/image/MCY/products/",
+          "queryparams": "?bgc=255,255,255&wid=%d&qlt=%d&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg"
+        },
+        {
+          "urltype": "Swatch",
+          "urlformat": "https://slimages.macys.com/is/image/MCY/swatches/"
+        },
+        {
+          "urltype": "SizeChart",
+          "urlformat": "http://macys.com/catalog/product/size.jsp?&size_chart=%s&fromUSLink=true"
+        },
+        {
+          "urltype": "InternationalSizeChart",
+          "urlformat": "http://macys.com/catalog/product/size.jsp?intl_size_chart="
+        }
+      ]
+    },
+    "productUrl": "/shop/product/bardwil-calandre-table-linen-collection?ID=81666",
+    "canonicalProductUrl": "/shop/product/bardwil-calandre-table-linen-collection?ID=81666",
+    "domainValuesMap": {
+      "entry": []
+    },
+    "link": [
+      {
+        "rel": "self",
+        "ref": "http://172.21.75.145:85/api/catalog/v2/products/81666"
+      },
+      {
+        "rel": "memberProducts",
+        "ref": "http://172.21.75.145:85/api/catalog/v2/products/81666/memberProducts"
+      },
+      {
+        "rel": "products",
+        "ref": "http://172.21.75.145:85/api/catalog/v2/products"
+      },
+      {
+        "rel": "reviewStatistics",
+        "ref": "http://172.21.75.145:85/api/review/v1/reviewStatistics?prodIds=81666"
+      },
+      {
+        "rel": "reviews",
+        "ref": "http://172.21.75.145:85/api/review/v1/reviews?prodId=81666"
+      },
+      {
+        "rel": "questions",
+        "ref": "http://172.21.75.145:85/api/review/v1/questions?prodId=81666"
+      },
+      {
+        "rel": "defaultCategory",
+        "ref": "http://172.21.75.145:85/api/catalog/v2/categories/17199"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "PRODUCT_PORTRAIT_IMAGE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "9223196.fpx"
+          }
+        ]
+      },
+      {
+        "name": "DINNERWARE_TYPE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Table Linens"
+          }
+        ]
+      },
+      {
+        "name": "BULLET_TEXT",
+        "sortWeight": 1,
+        "visible": true,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Select specific item for details"
+          }
+        ]
+      },
+      {
+        "name": "SPECIAL_OFFERS",
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Percent Off Order"
+          },
+          {
+            "value": "SUPC Percent Off Order"
+          },
+          {
+            "value": "SUPC Percent Off Order"
+          },
+          {
+            "value": "SUPC Percent Off Order"
+          },
+          {
+            "value": "SUPC Percent Off Order"
+          },
+          {
+            "value": "SUPC Percent Off Order"
+          },
+          {
+            "value": "SUPC Percent Off Order"
+          },
+          {
+            "value": "SUPC Percent Off Order"
+          },
+          {
+            "value": "Percent Off Order"
+          },
+          {
+            "value": "Free Shipping"
+          },
+          {
+            "value": "PWP"
+          }
+        ]
+      },
+      {
+        "name": "PROMOTION_APPLICATION",
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          }
+        ]
+      },
+      {
+        "name": "DEFAULT_CATEGORY",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "19869661_0"
+          },
+          {
+            "value": "19879759_1"
+          },
+          {
+            "value": "19879760_1"
+          },
+          {
+            "value": "19879761_0"
+          },
+          {
+            "value": "19879762_1"
+          },
+          {
+            "value": "19879765_1"
+          },
+          {
+            "value": "19879766_1"
+          },
+          {
+            "value": "19879767_1"
+          },
+          {
+            "value": "19879768_0"
+          },
+          {
+            "value": "19879769_1"
+          },
+          {
+            "value": "19879770_1"
+          },
+          {
+            "value": "19880320_1"
+          },
+          {
+            "value": "19880321_1"
+          },
+          {
+            "value": "19880322_0"
+          },
+          {
+            "value": "19880323_1"
+          },
+          {
+            "value": "19880324_1"
+          },
+          {
+            "value": "19880330_1"
+          },
+          {
+            "value": "19880331_1"
+          },
+          {
+            "value": "19880333_0"
+          },
+          {
+            "value": "19880334_1"
+          },
+          {
+            "value": "19880335_1"
+          },
+          {
+            "value": "19880462_1"
+          },
+          {
+            "value": "19880463_1"
+          },
+          {
+            "value": "19880464_0"
+          },
+          {
+            "value": "19880465_1"
+          },
+          {
+            "value": "19880466_1"
+          },
+          {
+            "value": "19880467_1"
+          },
+          {
+            "value": "19880468_1"
+          },
+          {
+            "value": "19880469_0"
+          },
+          {
+            "value": "19880470_1"
+          },
+          {
+            "value": "19880471_1"
+          },
+          {
+            "value": "19880473_1"
+          },
+          {
+            "value": "19880474_0"
+          },
+          {
+            "value": "19880475_1"
+          },
+          {
+            "value": "19880476_1"
+          },
+          {
+            "value": "19883393_0"
+          },
+          {
+            "value": "19883551_0"
+          },
+          {
+            "value": "19883720_0"
+          },
+          {
+            "value": "19883728_0"
+          },
+          {
+            "value": "19883729_0"
+          },
+          {
+            "value": "19883741_0"
+          },
+          {
+            "value": "19883810_0"
+          },
+          {
+            "value": "19883814_0"
+          },
+          {
+            "value": "19883863_0"
+          },
+          {
+            "value": "19883879_0"
+          },
+          {
+            "value": "19883955_0"
+          },
+          {
+            "value": "19883998_0"
+          }
+        ]
+      },
+      {
+        "name": "PROMOTION_ID",
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "19869661"
+          },
+          {
+            "value": "19879761"
+          },
+          {
+            "value": "19879768"
+          },
+          {
+            "value": "19880322"
+          },
+          {
+            "value": "19880333"
+          },
+          {
+            "value": "19880464"
+          },
+          {
+            "value": "19880469"
+          },
+          {
+            "value": "19880474"
+          },
+          {
+            "value": "19883879"
+          },
+          {
+            "value": "19883896"
+          },
+          {
+            "value": "19883955"
+          }
+        ]
+      },
+      {
+        "name": "FORCED_NEW_END_DATE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "03/02/2018 06:03:40 PM"
+          }
+        ]
+      },
+      {
+        "name": "USE_TEMPLATE_PDP",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Master Header"
+          }
+        ]
+      },
+      {
+        "name": "IS_FACET_ELIGIBLE_PROMO",
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          },
+          {
+            "value": "NA"
+          }
+        ]
+      },
+      {
+        "name": "PRODUCT_DEPARTMENT",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Table Linen"
+          }
+        ]
+      },
+      {
+        "name": "CUSTRATINGS",
+        "visible": true,
+        "unary": true,
+        "attributeValues": [
+          {
+            "value": "2.0"
+          }
+        ]
+      },
+      {
+        "name": "GLOBAL_PROMOTION",
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "N"
+          },
+          {
+            "value": "N"
+          },
+          {
+            "value": "N"
+          },
+          {
+            "value": "N"
+          },
+          {
+            "value": "N"
+          },
+          {
+            "value": "N"
+          },
+          {
+            "value": "N"
+          },
+          {
+            "value": "N"
+          },
+          {
+            "value": "N"
+          },
+          {
+            "value": "Y"
+          },
+          {
+            "value": "Y"
+          }
+        ]
+      },
+      {
+        "name": "SEARCH_MML_THRESHOLD",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "name": "POS_SEARCHABLE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Y"
+          }
+        ]
+      },
+      {
+        "name": "FORCED_NEW_START_DATE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "01/31/2018 06:01:40 PM"
+          }
+        ]
+      },
+      {
+        "name": "PRODUCT_LONG_DESCRIPTION",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Bring a timely tone to your tablescape with the fresh floral shades of the Bardwil Calendre table linen collection."
+          }
+        ]
+      },
+      {
+        "name": "TABLE_LINEN_TYPE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Table Linen Collection"
+          }
+        ]
+      },
+      {
+        "name": "REGISTRABLE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Wedding"
+          }
+        ]
+      },
+      {
+        "name": "BRAND",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Bardwil"
+          }
+        ]
+      },
+      {
+        "name": "SEARCH_MML_TYPE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "MaF"
+          }
+        ]
+      },
+      {
+        "name": "BUSINESS_CATEGORY",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Dining"
+          },
+          {
+            "value": "Home"
+          }
+        ]
+      },
+      {
+        "name": "MML_CAROUSEL_VALUE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "collection"
+          }
+        ]
+      },
+      {
+        "name": "USE_MANUAL_MEMBER_SEQUENCE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Y"
+          }
+        ]
+      },
+      {
+        "name": "WARRANTY",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "N"
+          }
+        ]
+      },
+      {
+        "name": "HOME_CATEGORIES",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Dining & Entertaining"
+          }
+        ]
+      },
+      {
+        "name": "HOME_SHAPE",
+        "sortWeight": 0,
+        "visible": false,
+        "unary": false,
+        "attributeValues": [
+          {
+            "value": "Round"
+          }
+        ]
+      }
+    ],
+    "metrics": [
+      {
+        "name": "SALES_DOLLARS_REGION_2",
+        "rawValue": "23.92"
+      },
+      {
+        "name": "SALES_DOLLARS_REGION_1",
+        "rawValue": "383.19"
+      },
+      {
+        "name": "NEWNESS",
+        "value": 60438,
+        "rawValue": "116"
+      },
+      {
+        "name": "SALES_DOLLARS_REGION_5",
+        "rawValue": "53.91"
+      },
+      {
+        "name": "SALES_DOLLARS_REGION_4",
+        "rawValue": "119.64"
+      },
+      {
+        "name": "LPOS_PRICE_TYPE",
+        "value": 68696,
+        "rawValue": "N"
+      },
+      {
+        "name": "BV_RATING",
+        "value": 73890,
+        "rawValue": "2"
+      },
+      {
+        "name": "SALES_DOLLARS",
+        "value": 35798,
+        "rawValue": "2630.99"
+      },
+      {
+        "name": "AVAILABLE_QTY_ON_HAND",
+        "value": 16046,
+        "rawValue": "490"
+      },
+      {
+        "name": "RETAIL_PRICE",
+        "value": 181282,
+        "rawValue": "12.19"
+      },
+      {
+        "name": "PRODUCT_AGE",
+        "value": 60438,
+        "rawValue": "116"
+      },
+      {
+        "name": "CLEARANCE_PRICE_TYPE",
+        "value": 94733,
+        "rawValue": "N"
+      },
+      {
+        "name": "ON_PROMOTION",
+        "value": 68213,
+        "rawValue": "Y"
+      },
+      {
+        "name": "CM_PRODUCT_VIEW",
+        "value": 80952,
+        "rawValue": "244"
+      },
+      {
+        "name": "SALES_DOLLARS_1_DAY",
+        "value": 23771,
+        "rawValue": "186.67"
+      },
+      {
+        "name": "GROSS_MARGIN",
+        "value": 30001,
+        "rawValue": "41.07"
+      },
+      {
+        "name": "SALE_PRICE_TYPE",
+        "value": 45975,
+        "rawValue": "Y"
+      },
+      {
+        "name": "CM_PRODUCT_CNV_PCT",
+        "value": 13384,
+        "rawValue": "0.18919"
+      },
+      {
+        "name": "SELL_THRU_PCT",
+        "value": 77405,
+        "rawValue": "40.6779"
+      },
+      {
+        "name": "NUM_PRD_ADDED_TO_REGISTRY",
+        "value": 7240,
+        "rawValue": "100"
+      },
+      {
+        "name": "CS_AVAILABLE_QTY_ON_HAND",
+        "value": 59737,
+        "rawValue": "485"
+      },
+      {
+        "name": "CS_ON_HAND_DOLLARS",
+        "value": 102313,
+        "rawValue": "5738.15"
+      },
+      {
+        "name": "REBATES",
+        "value": 68654,
+        "rawValue": "N"
+      },
+      {
+        "name": "ON_HAND_DOLLARS",
+        "value": 68616,
+        "rawValue": "6071.1"
+      },
+      {
+        "name": "BV_NUM_OF_REVIEWS",
+        "value": 66175,
+        "rawValue": "1"
+      },
+      {
+        "name": "CM_ADD_TO_BAG_CNV_PCT",
+        "value": 27188,
+        "rawValue": "0.74747"
+      },
+      {
+        "name": "UNIT_SALES",
+        "value": 8561,
+        "rawValue": "336"
+      }
+    ]
+  }
+}

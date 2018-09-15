@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/customer/v1/lists?userid=201426549&default=true&listtype=w&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "customer_list_body_Bcom.json",
+    "headers": {
+      "Content-Type": "application/json",
+      "Cache-Control": "max-age=86400"
+    }
+  }
+}

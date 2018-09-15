@@ -1,0 +1,14 @@
+/target/
+config/.DS_Store
+service/.DS_Store
+service/src/.DS_Store
+service/src/main/.DS_Store
+service/src/main/java/.DS_Store
+service/src/main/java/com/.DS_Store
+service/src/main/java/com/macys/.DS_Store
+service/src/main/java/com/macys/selection/.DS_Store
+service/src/main/java/com/macys/selection/xapi/.DS_Store
+service/src/main/java/com/macys/selection/xapi/list/.DS_Store
+.DS_Store
+config/.DS_Store
+

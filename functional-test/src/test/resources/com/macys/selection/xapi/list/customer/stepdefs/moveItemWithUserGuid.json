@@ -1,0 +1,16 @@
+{
+    "CustomerList": {
+        "user": {
+            "guid": "4b61ee86-c46e-4f62-b97a-f52a20b512e8"
+        },
+        "list": [
+            {
+                "items": [
+                    {
+                        "itemGuid": "3577fbc5-3385-4bc1-866f-36078928bbcd"
+                    }
+                ]
+            }
+        ]
+    }
+}

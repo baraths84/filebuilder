@@ -1,0 +1,106 @@
+{"activityLogPage": {"activityLog": [
+  {
+    "userGuid": "99931-99931",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "LIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:35.650",
+    "lastModifiedDate": "2018-07-29T11:44:35.650"
+  },
+  {
+    "userGuid": "99932-99932",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "LIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:36.640",
+    "lastModifiedDate": "2018-07-29T11:44:36.640"
+  },
+  {
+    "userGuid": "99933-99933",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "LIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:37.572",
+    "lastModifiedDate": "2018-07-29T11:44:37.572"
+  },
+  {
+    "userGuid": "99934-99934",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "LIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:38.464",
+    "lastModifiedDate": "2018-07-29T11:44:38.464"
+  },
+  {
+    "userGuid": "99935-99935",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "LIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:35.650",
+    "lastModifiedDate": "2018-07-29T11:44:35.650"
+  },
+  {
+    "userGuid": "99936-99936",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "LIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:36.640",
+    "lastModifiedDate": "2018-07-29T11:44:36.640"
+  },
+  {
+    "userGuid": "99931-99931",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "UNLIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:37.572",
+    "lastModifiedDate": "2018-07-29T11:44:37.572"
+  },
+  {
+    "userGuid": "99931-99931",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "DISLIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:38.464",
+    "lastModifiedDate": "2018-07-29T11:44:38.464"
+  },
+  {
+    "userGuid": "99937-99937",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "DISLIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:35.650",
+    "lastModifiedDate": "2018-07-29T11:44:35.650"
+  },
+  {
+    "userGuid": "99937-99937",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "UNDISLIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:35.650",
+    "lastModifiedDate": "2018-07-29T11:44:35.650"
+  },
+  {
+    "userGuid": "99938-99938",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "DISLIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:36.640",
+    "lastModifiedDate": "2018-07-29T11:44:36.640"
+  },
+  {
+    "userGuid": "99936-99936",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "UNLIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:37.572",
+    "lastModifiedDate": "2018-07-29T11:44:37.572"
+  },
+  {
+    "userGuid": "99937-99937",
+    "listGuid": "dfa1ece-db69-4369-a222-99996",
+    "activityType": "LIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:38.464",
+    "lastModifiedDate": "2018-07-29T11:44:38.464"
+  }
+]}}

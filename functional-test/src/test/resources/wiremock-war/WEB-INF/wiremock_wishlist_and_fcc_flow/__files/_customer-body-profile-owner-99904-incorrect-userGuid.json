@@ -1,0 +1,11 @@
+{
+  "errors": {
+    "error": [
+      {
+        "requestId": "dd12fb3f-aaef-4c2f-8349-23c8105f83f2",
+        "errorCode": "18068",
+        "message": "User Guid is Invalid"
+      }
+    ]
+  }
+}

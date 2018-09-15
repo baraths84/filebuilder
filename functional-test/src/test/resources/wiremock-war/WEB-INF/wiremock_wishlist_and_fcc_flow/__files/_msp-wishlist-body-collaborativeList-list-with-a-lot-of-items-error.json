@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "error": [
+      {
+        "errorCode": "10138",
+        "message": "Invalid Add Item Input: The maximum number of allowed items is exceeded."
+      }
+    ]
+  }
+}

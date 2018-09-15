@@ -1,0 +1,55 @@
+{
+    "list": {
+        "id": 10680246,
+        "listGuid": "8db568b8-8d17-48b4-8bbb-23d655146fc9",
+        "name": "The 12th list",
+        "listType": "W",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": true,
+        "numberOfItems": null,
+        "showPurchaseInfo": null,
+        "createdDate": null,
+        "lastModified": null,
+        "imageUrlsList": [],
+        "items": [
+            {
+                "upc": {
+                    "id": 32693403,
+                    "upcNumber": 749908798366,
+                    "color": "White Satin",
+                    "size": "6M",
+                    "price": {
+                        "retailPrice": 245,
+                        "originalPrice": 245,
+                        "intermediateSalesValue": 0,
+                        "salesValue": 0,
+                        "onSale": false,
+                        "upcOnSale": false,
+                        "priceType": 0,
+                        "basePriceType": 0
+                    },
+                    "availability": {
+                        "available": true,
+                        "upcAvailabilityMessage": "In Stock: Usually ships within 2 business days.",
+                        "inStoreEligible": true,
+                        "orderMethod": "POOL"
+                    },
+                    "product": {
+                        "id": 1483935,
+                        "name": "Badgley Mischka Kiara Embellished Peep-Toe Evening Pumps",
+                        "active": true,
+                        "imageURL": "7/optimized/2112357_fpx.tif",
+                        "live": true,
+                        "available": true,
+                        "reviewStatistics": {
+                            "averageRating": 4.2289,
+                            "reviewCount": 83
+                        }
+                    }
+                },
+                "itemGuid": "a8a8e94d-8dba-4f79-ba70-feb2e4b50b5d"
+            }
+        ]
+    }
+}

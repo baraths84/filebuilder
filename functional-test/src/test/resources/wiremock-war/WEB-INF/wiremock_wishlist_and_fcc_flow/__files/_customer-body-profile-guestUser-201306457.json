@@ -1,0 +1,11 @@
+{
+  "errors": {
+    "error": [
+      {
+        "requestId": "6421ff21-4b7d-4559-b1f7-dcc6e975e8a3",
+        "errorCode": "18012",
+        "message": "UserId is Invalid"
+      }
+    ]
+  }
+}

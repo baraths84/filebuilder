@@ -1,0 +1,12 @@
+{
+  "collaboratorResponse": {
+    "collaborators": [
+      {
+        "userGuid": "10001002-10001002-10001002",
+        "privilege": "LIKE",
+        "createdDate": "2018-07-21T14:18:44.209",
+        "lastModifiedDate": "2018-07-21T14:18:44.209"
+      }
+    ]
+  }
+}

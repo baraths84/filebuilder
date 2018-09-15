@@ -1,0 +1,497 @@
+{
+  "upcs": {
+    "upc": [
+      {
+        "id": 3680444,
+        "upc": 3680444,
+        "productId": 3680444,
+        "price": {
+          "originalPrice": 17.98,
+          "originalPriceLabel": "Orig.",
+          "retailPrice": 200,
+          "retailPriceLabel": "Now",
+          "priceType": 7,
+          "saleValue": 0,
+          "intermediateSaleValue": 0,
+          "displayCode": "",
+          "basePriceType": 0,
+          "onSale": true,
+          "pricingPolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+          "pricingPolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17729&ID=3014013",
+          "willBe": false,
+          "percentageOff": 50
+        },
+        "availability": {
+          "upcId": 37509088,
+          "available": true,
+          "shipDays": -1,
+          "premiumShipDays": 0,
+          "expressShipDays": 0,
+          "orderMethod": "NA",
+          "giftWrappable": true,
+          "giftMessageable": true,
+          "returnConstraints": "NX",
+          "source": "UNAV",
+          "shippingMethodsCode": 0,
+          "shipMethodsSource": "UNKN",
+          "inStoreEligibility": true,
+          "inventoryStatusCode": "DISCONTINUED",
+          "upcAvailabilityMessage": "This item is not available.",
+          "registryEligible": false,
+          "ngfProductDate": "9999-12-30T00:00:00.000",
+          "checkoutGiftAttrUpdt": false,
+          "checkoutFulfilUpdt": false,
+          "availabilityLastModified": "2018-07-09T05:27:04.000",
+          "giftAttributesLastModified": "2018-07-09T05:27:04.000",
+          "availChangedTs": "2018-07-09T05:27:04.000"
+        },
+        "colorway": {
+          "colorwayId": 2882956,
+          "colorName": "Oat Heather",
+          "colorNormalName": "Tan/Beige",
+          "swatchSeqNumber": 0,
+          "swapoutSeqNumber": 2,
+          "primaryImage": {
+            "imageName": "8780323.fpx",
+            "seqNumber": 1
+          },
+          "swatchImage": {
+            "imageName": "8788012.fpx",
+            "seqNumber": 1
+          }
+        },
+        "active": true,
+        "link": [
+          {
+            "rel": "self",
+            "ref": "http://172.21.75.145:85/api/catalog/v2/upcs?upcNumber=608356706005"
+          },
+          {
+            "rel": "storeInventory",
+            "ref": "http://172.21.75.145:85/api/catalog/v2/inventories/storeinventory?upc=608356706005"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "COLOR_NORMAL",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Tan/Beige",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "MEN_REGULAR_SIZE_T",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "XL",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "COLOR",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Oat Heather",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "SIZE",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "XL",
+                "sequenceNumber": 3295
+              }
+            ]
+          },
+          {
+            "name": "SWATCH",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "8788012.fpx",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "DISCOUNTABLE",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Y",
+                "sequenceNumber": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3680333,
+        "upc": 3680333,
+        "productId": 3680444,
+        "price": {
+          "originalPrice": 17.98,
+          "originalPriceLabel": "Orig.",
+          "retailPrice": 100,
+          "retailPriceLabel": "Now",
+          "priceType": 7,
+          "saleValue": 0,
+          "intermediateSaleValue": 0,
+          "displayCode": "",
+          "basePriceType": 0,
+          "onSale": true,
+          "pricingPolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+          "pricingPolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17729&ID=3014013",
+          "willBe": false,
+          "percentageOff": 50
+        },
+        "availability": {
+          "upcId": 37509087,
+          "available": false,
+          "source": "UNKN",
+          "shippingMethodsCode": 0,
+          "shipMethodsSource": "UNKN",
+          "inStoreEligibility": true
+        },
+        "colorway": {
+          "colorwayId": 2882956,
+          "colorName": "Oat Heather",
+          "colorNormalName": "Tan/Beige",
+          "swatchSeqNumber": 0,
+          "swapoutSeqNumber": 2,
+          "primaryImage": {
+            "imageName": "8780323.fpx",
+            "seqNumber": 1
+          },
+          "swatchImage": {
+            "imageName": "8788012.fpx",
+            "seqNumber": 1
+          }
+        },
+        "active": false,
+        "link": [
+          {
+            "rel": "self",
+            "ref": "http://172.21.75.145:85/api/catalog/v2/upcs?upcNumber=608356705992"
+          },
+          {
+            "rel": "storeInventory",
+            "ref": "http://172.21.75.145:85/api/catalog/v2/inventories/storeinventory?upc=608356705992"
+          }
+        ]
+      },
+      {
+        "id": 3680222,
+        "upc": 3680222,
+        "productId": 3680222,
+        "price": {
+          "originalPrice": 17.98,
+          "originalPriceLabel": "Orig.",
+          "retailPrice": 8.99,
+          "retailPriceLabel": "Now",
+          "priceType": 7,
+          "saleValue": 0,
+          "intermediateSaleValue": 0,
+          "displayCode": "",
+          "basePriceType": 0,
+          "onSale": true,
+          "pricingPolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+          "pricingPolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17729&ID=3014013",
+          "willBe": false,
+          "percentageOff": 50
+        },
+        "availability": {
+          "upcId": 37509088,
+          "available": true,
+          "shipDays": -1,
+          "premiumShipDays": 0,
+          "expressShipDays": 0,
+          "orderMethod": "NA",
+          "giftWrappable": true,
+          "giftMessageable": true,
+          "returnConstraints": "NX",
+          "source": "UNAV",
+          "shippingMethodsCode": 0,
+          "shipMethodsSource": "UNKN",
+          "inStoreEligibility": true,
+          "inventoryStatusCode": "DISCONTINUED",
+          "upcAvailabilityMessage": "This item is not available.",
+          "registryEligible": false,
+          "ngfProductDate": "9999-12-30T00:00:00.000",
+          "checkoutGiftAttrUpdt": false,
+          "checkoutFulfilUpdt": false,
+          "availabilityLastModified": "2018-07-09T05:27:04.000",
+          "giftAttributesLastModified": "2018-07-09T05:27:04.000",
+          "availChangedTs": "2018-07-09T05:27:04.000"
+        },
+        "colorway": {
+          "colorwayId": 2882956,
+          "colorName": "Oat Heather",
+          "colorNormalName": "Tan/Beige",
+          "swatchSeqNumber": 0,
+          "swapoutSeqNumber": 2,
+          "primaryImage": {
+            "imageName": "8780323.fpx",
+            "seqNumber": 1
+          },
+          "swatchImage": {
+            "imageName": "8788012.fpx",
+            "seqNumber": 1
+          }
+        },
+        "active": true,
+        "link": [
+          {
+            "rel": "self",
+            "ref": "http://172.21.75.145:85/api/catalog/v2/upcs?upcNumber=608356706005"
+          },
+          {
+            "rel": "storeInventory",
+            "ref": "http://172.21.75.145:85/api/catalog/v2/inventories/storeinventory?upc=608356706005"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "COLOR_NORMAL",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Tan/Beige",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "MEN_REGULAR_SIZE_T",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "XL",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "COLOR",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Oat Heather",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "SIZE",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "XL",
+                "sequenceNumber": 3295
+              }
+            ]
+          },
+          {
+            "name": "SWATCH",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "8788012.fpx",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "DISCOUNTABLE",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Y",
+                "sequenceNumber": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3680111,
+        "upc": 3680111,
+        "productId": 3680222,
+        "price": {
+          "originalPrice": 17.98,
+          "originalPriceLabel": "Orig.",
+          "retailPrice": 50,
+          "retailPriceLabel": "Now",
+          "priceType": 7,
+          "saleValue": 0,
+          "intermediateSaleValue": 0,
+          "displayCode": "",
+          "basePriceType": 0,
+          "onSale": true,
+          "pricingPolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+          "pricingPolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17729&ID=3014013",
+          "willBe": false,
+          "percentageOff": 50
+        },
+        "availability": {
+          "upcId": 37509088,
+          "available": true,
+          "shipDays": -1,
+          "premiumShipDays": 0,
+          "expressShipDays": 0,
+          "orderMethod": "NA",
+          "giftWrappable": true,
+          "giftMessageable": true,
+          "returnConstraints": "NX",
+          "source": "UNAV",
+          "shippingMethodsCode": 0,
+          "shipMethodsSource": "UNKN",
+          "inStoreEligibility": true,
+          "inventoryStatusCode": "DISCONTINUED",
+          "upcAvailabilityMessage": "This item is not available.",
+          "registryEligible": false,
+          "ngfProductDate": "9999-12-30T00:00:00.000",
+          "checkoutGiftAttrUpdt": false,
+          "checkoutFulfilUpdt": false,
+          "availabilityLastModified": "2018-07-09T05:27:04.000",
+          "giftAttributesLastModified": "2018-07-09T05:27:04.000",
+          "availChangedTs": "2018-07-09T05:27:04.000"
+        },
+        "colorway": {
+          "colorwayId": 2882956,
+          "colorName": "Oat Heather",
+          "colorNormalName": "Tan/Beige",
+          "swatchSeqNumber": 0,
+          "swapoutSeqNumber": 2,
+          "primaryImage": {
+            "imageName": "8780323.fpx",
+            "seqNumber": 1
+          },
+          "swatchImage": {
+            "imageName": "8788012.fpx",
+            "seqNumber": 1
+          }
+        },
+        "active": true,
+        "link": [
+          {
+            "rel": "self",
+            "ref": "http://172.21.75.145:85/api/catalog/v2/upcs?upcNumber=608356706005"
+          },
+          {
+            "rel": "storeInventory",
+            "ref": "http://172.21.75.145:85/api/catalog/v2/inventories/storeinventory?upc=608356706005"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "COLOR_NORMAL",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Tan/Beige",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "MEN_REGULAR_SIZE_T",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "XL",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "COLOR",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Oat Heather",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "SIZE",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "XL",
+                "sequenceNumber": 3295
+              }
+            ]
+          },
+          {
+            "name": "SWATCH",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "8788012.fpx",
+                "sequenceNumber": 0
+              }
+            ]
+          },
+          {
+            "name": "DISCOUNTABLE",
+            "sortWeight": 0,
+            "visible": true,
+            "unary": false,
+            "attributeValues": [
+              {
+                "value": "Y",
+                "sequenceNumber": 0
+              }
+            ]
+          }
+        ]
+      }
+
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "lists": {
+    "lists": [
+      {
+        "listGuid": "70dbc1c2-3c53-49f4-9bdb-e117988603bc",
+        "name": "cam's List",
+        "listType": "W",
+        "defaultList": true,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 2,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-12-18 22:23:14.805585",
+        "lastModified": "2017-12-18 22:23:14.805585",
+        "imageUrlsList": [],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/users/userdetails/getuser?userid=201336627"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/lists?userid=201336627"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/lists/70dbc1c2-3c53-49f4-9bdb-e117988603bc?_expand=items"
+          }
+        ],
+        "listId": 10710426
+      },
+      {
+        "listGuid": "b2094fa5-a38c-4e45-8cda-d24007132745",
+        "name": "list2",
+        "listType": "W",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 1,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-12-19 22:22:50.352468",
+        "lastModified": "2017-12-19 22:22:50.352468",
+        "imageUrlsList": [],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/users/userdetails/getuser?userid=201336627"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/lists?userid=201336627"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/lists/b2094fa5-a38c-4e45-8cda-d24007132745?_expand=items"
+          }
+        ],
+        "listId": 10710549
+      },
+      {
+        "listGuid": "5d4b1ee9-5695-4b59-815b-5069f944ce3a",
+        "name": "cams",
+        "listType": "W",
+        "defaultList": false,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 1,
+        "showPurchaseInfo": true,
+        "createdDate": "2017-12-19 22:41:09.090057",
+        "lastModified": "2017-12-19 22:41:09.090057",
+        "imageUrlsList": [],
+        "links": [
+          {
+            "rel": "user",
+            "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/users/userdetails/getuser?userid=201336627"
+          },
+          {
+            "rel": "self",
+            "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/lists?userid=201336627"
+          },
+          {
+            "rel": "items",
+            "ref": "http://api.mcom-056.tbe.zeus.fds.com/customer/v1/lists/5d4b1ee9-5695-4b59-815b-5069f944ce3a?_expand=items"
+          }
+        ],
+        "listId": 10710579
+      }
+    ]
+  }
+}

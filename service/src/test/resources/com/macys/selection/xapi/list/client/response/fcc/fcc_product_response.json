@@ -1,0 +1,169 @@
+{
+  "id": 456,
+  "name": "Steel Bracelet Watch",
+  "finalPrice": {
+    "finalPrice": 106.24,
+    "promotions": [
+      {
+        "promotionId": 19883394,
+        "promotionName": "SITEWIDE FC: FOURTH 15%",
+        "global": false
+      }
+    ],
+    "displayFinalPrice": "Always Show",
+    "productTypePromotion": "NONE"
+  },
+  "price": {
+    "originalPrice": 1900,
+    "retailPrice": 1900,
+    "priceType": 0,
+    "saleValue": 0,
+    "intermediateSaleValue": 0,
+    "displayCode": "dcode",
+    "basePriceType": 0,
+    "onSale": false
+  },
+  "defaultCategoryId": 23,
+  "shipping": {
+    "notes": [
+      "Test comment"
+    ],
+    "giftWrappable": true,
+    "giftMessageable": true,
+    "excludedStates": [
+      {
+        "code": "AK",
+        "name": "Alaska"
+      }
+    ],
+    "shippingMethods": [
+      {
+        "code": "G",
+        "name": "Standard"
+      }
+    ],
+    "returnConstraints": [
+      {
+        "returnCode": "SS"
+      }
+    ]
+  },
+  "active": true,
+  "primaryPortraitSource": "test_source",
+  "additionalImageSource": [
+    "testImage"
+  ],
+  "primaryImage": {
+    "imageName": "testImage"
+  },
+  "live": true,
+  "available": true,
+  "upcs": [
+    {
+      "id": 111,
+      "upc": 112,
+      "productId": 456,
+      "price": {
+        "originalPrice": 1900,
+        "retailPrice": 1900,
+        "priceType": 0,
+        "saleValue": 0,
+        "intermediateSaleValue": 0,
+        "displayCode": "dcode",
+        "basePriceType": 0,
+        "onSale": false,
+        "willBe": false
+      },
+      "availability": {
+        "upcId": 111,
+        "available": true,
+        "shipDays": 2,
+        "premiumShipDays": 0,
+        "expressShipDays": 0,
+        "orderMethod": "POOL",
+        "giftWrappable": true,
+        "giftMessageable": true,
+        "returnConstraints": "SS",
+        "vendorId": 111,
+        "source": "UNKN",
+        "shippingMethodsCode": 7,
+        "shipMethodsSource": "UNKN",
+        "inStoreEligibility": true,
+        "inventoryStatusCode": "AVAILABLE",
+        "upcAvailabilityMessage": "test_message",
+        "registryEligible": false,
+        "ngfProductDate": "2017-12-30T00:00:00.000",
+        "checkoutGiftAttrUpdt": false,
+        "checkoutFulfilUpdt": false,
+        "availabilityLastModified": "2018-03-25T00:48:04.000",
+        "giftAttributesLastModified": "2018-03-25T00:48:04.000",
+        "availChangedTs": "2018-03-25T00:48:04.000"
+      },
+      "addByApp": "MCOM",
+      "baseFeeExempt": false,
+      "surchargeFee": 0,
+      "backorderable": false,
+      "upcModelNumber": "L55125717",
+      "colorway": {
+        "colorwayId": 27,
+        "colorName": "Two-Tone",
+        "colorNormalName": "Silver",
+        "swatchSeqNumber": 0,
+        "swapoutSeqNumber": 0,
+        "primaryImage": {
+          "imageName": "9167018.fpx",
+          "seqNumber": 1
+        }
+      },
+      "active": true,
+      "v2cFlag": false,
+      "shipping": {
+        "shippingMethods": [
+          {
+            "code": "G",
+            "name": "Standard"
+          }
+        ]
+      },
+      "finalPrice": {
+        "finalPrice": 106.24,
+        "promotions": [
+          {
+            "promotionId": 19883394,
+            "promotionName": "SITEWIDE FC: FOURTH 15%",
+            "global": false
+          }
+        ],
+        "displayFinalPrice": "Always Show",
+        "productTypePromotion": "NONE"
+      },
+      "attributes": [
+        {
+          "name": "COLOR_NORMAL",
+          "sortWeight": 0,
+          "visible": true,
+          "unary": false,
+          "attributeValues": [
+            {
+              "value": "Silver",
+              "sequenceNumber": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "name": "STRAP",
+      "sortWeight": 0,
+      "visible": true,
+      "unary": true,
+      "attributeValues": [
+        {
+          "value": "Stainless Steel"
+        }
+      ]
+    }
+  ]
+}

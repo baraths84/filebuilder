@@ -1,0 +1,17 @@
+{"list": {
+  "listGuid": "f338675e-c359-4de9-b083-90002005",
+  "name": "List without collaborators without items",
+  "listType": "C",
+  "defaultList": false,
+  "onSaleNotify": true,
+  "searchable": true,
+  "numberOfItems": 0,
+  "showPurchaseInfo": true,
+  "createdDate": "2001-05-22T23:01:49.008",
+  "lastModified": "2008-10-11T17:23:43.453",
+  "userId": 90001003,
+  "userGuid": "90001003-90001003",
+  "items": [],
+  "listId": 90002005
+}}
+

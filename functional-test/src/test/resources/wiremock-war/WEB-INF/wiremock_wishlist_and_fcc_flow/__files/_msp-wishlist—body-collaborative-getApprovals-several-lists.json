@@ -1,0 +1,82 @@
+{"collaborativeLists": {"lists": [
+  {
+    "listGuid": "a78a1ed1-d7c0-4aae-90930-2",
+    "name": "Collaborator list 1",
+    "collaborators":       [
+      {
+        "userGuid": "2013345-2013345-2013345",
+        "listGuid": "a78a1ed1-d7c0-4aae-90930-2",
+        "privilege": "PENDING",
+        "createdDate": "2001-05-22T23:08:49.008",
+        "lastModifiedDate": "2008-10-11T17:23:43.453"
+      },
+      {
+        "userGuid": "2013346-2013346-2013346",
+        "listGuid": "a78a1ed1-d7c0-4aae-90930-2",
+        "privilege": "PENDING",
+        "createdDate": "2001-05-22T23:09:49.008",
+        "lastModifiedDate": "2008-10-11T17:23:43.453"
+      },
+      {
+        "userGuid": "2013347-2013347-2013347",
+        "listGuid": "a78a1ed1-d7c0-4aae-90930-2",
+        "privilege": "PENDING",
+        "createdDate": "2001-05-22T23:10:49.008",
+        "lastModifiedDate": "2008-10-11T17:23:43.453"
+      }
+    ]
+  },
+  {
+    "listGuid": "a78a1ed1-d7c0-4aae-90930-3",
+    "name": "Collaborator list 2",
+    "collaborators":       [
+      {
+        "userGuid": "2013345-2013345-2013345",
+        "listGuid": "a78a1ed1-d7c0-4aae-90930-3",
+        "privilege": "PENDING",
+        "createdDate": "2001-05-22T23:10:51.008",
+        "lastModifiedDate": "2008-10-11T17:23:43.453"
+      },
+      {
+        "userGuid": "2013346-2013346-2013346",
+        "listGuid": "a78a1ed1-d7c0-4aae-90930-3",
+        "privilege": "PENDING",
+        "createdDate": "2001-05-22T23:10:52.008",
+        "lastModifiedDate": "2008-10-11T17:23:43.453"
+      }
+    ]
+  },
+  {
+    "listGuid": "a78a1ed1-d7c0-4aae-90930-1",
+    "name": "Collaborator list 3",
+    "collaborators":       [
+      {
+        "userGuid": "2013346-2013346-2013346",
+        "listGuid": "a78a1ed1-d7c0-4aae-90930-1",
+        "privilege": "PENDING",
+        "createdDate": "2001-05-22T23:05:49.008",
+        "lastModifiedDate": "2008-10-11T17:23:43.453"
+      },
+      {
+        "userGuid": "2013347-2013347-2013347",
+        "listGuid": "a78a1ed1-d7c0-4aae-90930-1",
+        "privilege": "PENDING",
+        "createdDate": "2001-05-22T23:06:49.008",
+        "lastModifiedDate": "2008-10-11T17:23:43.453"
+      }
+    ]
+  },
+  {
+    "listGuid": "a78a1ed1-d7c0-4aae-90930-4",
+    "name": "Collaborator list 4",
+    "collaborators":       [
+      {
+        "userGuid": "2013348-2013348-2013348",
+        "listGuid": "a78a1ed1-d7c0-4aae-90930-4",
+        "privilege": "PENDING",
+        "createdDate": "2001-05-22T23:05:49.008",
+        "lastModifiedDate": "2008-10-11T17:23:43.453"
+      }
+    ]
+  }
+]}}

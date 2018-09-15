@@ -1,0 +1,26 @@
+{
+  "list": {
+    "listGuid": "a95cc4b8-111f-4767-93ae-7f956e04a84",
+    "name": "Wishlist Default",
+    "listType": "W",
+    "defaultList": true,
+    "onSaleNotify": false,
+    "searchable": true,
+    "numberOfItems": 1,
+    "showPurchaseInfo": true,
+    "createdDate": "2016-02-06T13:31:28.251",
+    "lastModified": "2016-02-06T13:31:28.251",
+    "userId": 123,
+    "items": [
+      {
+        "itemId": 310017,
+        "addedDate": "2016-02-06T15:31:28.251",
+        "lastModified": "2016-02-06 15:31:28.251",
+        "retailPriceWhenAdded": 47.99,
+        "qtyRequested": 3,
+        "upcId": 111
+      }
+    ],
+    "listId": 1
+  }
+}

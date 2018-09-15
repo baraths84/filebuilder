@@ -1,0 +1,38 @@
+{"list": {
+  "listGuid": "hfs9df9-asd9v0-c359-4de9-b083-987-10001003",
+  "name": "List without collaborators but with items",
+  "listType": "C",
+  "defaultList": false,
+  "onSaleNotify": true,
+  "searchable": true,
+  "numberOfItems": 2,
+  "showPurchaseInfo": true,
+  "createdDate": "2001-05-22T23:01:49.008",
+  "lastModified": "2008-10-11T17:23:43.453",
+  "userId": 10001001,
+  "userGuid": "10001001-10001001-10001001",
+  "items": [
+    {
+      "itemGuid": "0cba5e7f-3715-403f-a8ff-9000301",
+      "itemId": 9000301,
+      "addedDate": "2001-05-22T23:01:49.008",
+      "lastModified": "2008-10-11 17:23:43.453",
+      "retailPriceWhenAdded": 195,
+      "qtyRequested": 1,
+      "priority": "H",
+      "upcId": 90003
+    },
+    {
+      "itemGuid": "0cba5e7f-3715-403f-a8ff-9000401",
+      "itemId": 9000401,
+      "addedDate": "2001-05-22T23:01:49.008",
+      "lastModified": "2008-10-11 17:23:43.453",
+      "retailPriceWhenAdded": 915,
+      "qtyRequested": 1,
+      "priority": "H",
+      "upcId": 90004
+    }
+  ],
+  "listId": 100010022
+}}
+

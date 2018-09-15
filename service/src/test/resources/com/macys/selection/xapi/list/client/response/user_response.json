@@ -1,0 +1,10 @@
+{
+  "user": {
+    "id": 12345,
+    "guid": "userGuidValue",
+    "guestUser": false,
+    "profileAddress": {
+        "firstName": "TestQA"
+    }
+  }
+}

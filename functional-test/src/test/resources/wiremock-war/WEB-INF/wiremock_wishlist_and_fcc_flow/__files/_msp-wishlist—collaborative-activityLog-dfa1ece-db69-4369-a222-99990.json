@@ -1,0 +1,34 @@
+{"activityLogPage": {"activityLog": [
+  {
+    "userGuid": "99920-99920",
+    "listGuid": "dfa1ece-db69-4369-a222-99990",
+    "activityType": "LIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:35.650",
+    "lastModifiedDate": "2018-07-29T11:44:35.650"
+  },
+  {
+    "userGuid": "99920-99920",
+    "listGuid": "dfa1ece-db69-4369-a222-99990",
+    "activityType": "UNLIKE",
+    "upcId": 90001,
+    "createdDate": "2018-07-29T11:44:36.640",
+    "lastModifiedDate": "2018-07-29T11:44:36.640"
+  },
+  {
+    "userGuid": "99921-99921",
+    "listGuid": "dfa1ece-db69-4369-a222-99990",
+    "activityType": "DISLIKE",
+    "upcId": 90002,
+    "createdDate": "2018-07-29T11:44:37.572",
+    "lastModifiedDate": "2018-07-29T11:44:37.572"
+  },
+  {
+    "userGuid": "99921-99921",
+    "listGuid": "dfa1ece-db69-4369-a222-99990",
+    "activityType": "UNDISLIKE",
+    "upcId": 90002,
+    "createdDate": "2018-07-29T11:44:38.464",
+    "lastModifiedDate": "2018-07-29T11:44:38.464"
+  }
+]}}

@@ -1,0 +1,12 @@
+{
+  "errors": {
+    "error": [
+      {
+        "errorCode": "50001",
+        "message": "We're experiencing a technical glitch. Please try again later or call us at 1-800-BUY-MACY (289-6229) for immediate assistance. ",
+        "developerMessage": "Incorrect request",
+        "moreInfo": ""
+      }
+    ],
+  }
+}

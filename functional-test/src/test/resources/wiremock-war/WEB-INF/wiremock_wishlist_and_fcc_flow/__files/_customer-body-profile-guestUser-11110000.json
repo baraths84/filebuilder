@@ -1,0 +1,16 @@
+{
+  "user": {
+    "id": 11110000,
+    "displayProfileSmartPrompt": true,
+    "profileAddress": {
+      "firstName": "testFirstName",
+      "lastName": "testLastName",
+      "addressID": -1
+    },
+    "userMalicious": false,
+    "guestUser": true,
+    "actionId": 0,
+    "prodId": 0,
+    "skipEmailCommunication": false
+  }
+}

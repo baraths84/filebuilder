@@ -1,0 +1,27 @@
+{
+  "CustomerList": {
+    "user": {
+      "id": 2160944721,
+      "guid": "204ada7b-f647-4487-9f4d-34aef2614bc0",
+      "guestUser": true,
+      "profile": {}
+    },
+    "list": [
+      {
+        "id": 2541003,
+        "guid": "f99e2ab7-0391-45be-8601-7d6cffcc2e58",
+        "name": "Guest List",
+        "listType": "W",
+        "defaultList": true,
+        "onSaleNotify": false,
+        "searchable": false,
+        "numberOfItems": 1,
+        "imageUrlsList": [
+          "5/optimized/365125_fpx.tif"
+        ],
+        "items": [],
+        "products": []
+      }
+    ]
+  }
+}
