@@ -4,79 +4,209 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.macys</groupId>
-		<artifactId>macys-parent</artifactId>
-		<version>1.0.66</version>
+		<groupId>com.macys.selection.xapi</groupId>
+		<artifactId>wishlist</artifactId>
+		<version>1.21.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.macys.selection.xapi</groupId>
-	<artifactId>wishlist</artifactId>
-	<version>1.21.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
-	<name>${project.artifactId}</name>
-	
-	<modules>
-		<module>service</module>
-		<!--TODO: Disabling auto-building func-tests for now. They should be built in separate job. -->
- 		<!--<module>functional-test</module>-->
-		<module>config</module>
-	</modules>	
+	<artifactId>wishlist-service</artifactId>
+	<packaging>war</packaging>
 
 	<properties>
-		<skipITs>false</skipITs>
-		<properties.management.plugin.version>3.6.6</properties.management.plugin.version>
-		<xapi.core.version>1.2.13</xapi.core.version>
-		<aspectj.version>1.8.9</aspectj.version>
-		<javers.version>3.0.0</javers.version>
-		<randombeans.version>3.1.0</randombeans.version>
-		<wiremock.version>2.6.0</wiremock.version>
+	    <xapi.core.version>1.1.5</xapi.core.version>
+		<dks.client.version>2.44.3</dks.client.version>
+		<services.platform.version>4.33.12</services.platform.version>
+		<dks.version>2.63.28</dks.version>
 	</properties>
 
-	<dependencyManagement>
-		<dependencies>
+	<dependencies>
+		<dependency>
+			<groupId>com.macys.platform</groupId>
+			<artifactId>xapi-core-spring-boot-starter</artifactId>
+			<version>${xapi.core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.macys.platform</groupId>
+			<artifactId>rest.framework.common</artifactId>
+			<version>${services.platform.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	    <dependency>
+	      <groupId>io.reactivex.rxjava2</groupId>
+	      <artifactId>rxjava</artifactId>
+	      <version>2.1.2</version>
+	    </dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<scope>test</scope>
+		</dependency>
+        <dependency>
+            <groupId>org.javers</groupId>
+            <artifactId>javers-core</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.macys.killswitch</groupId>
+			<artifactId>DKSSwitches</artifactId>
+			<version>${dks.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-log4j12</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-api</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>log4j</groupId>
+					<artifactId>log4j</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.macys.killswitch</groupId>
+			<artifactId>DKSClient</artifactId>
+			<version>${dks.client.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-log4j12</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-api</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>log4j</groupId>
+					<artifactId>log4j</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 			<dependency>
-				<groupId>com.macys.platform</groupId>
-				<artifactId>xapi-core-spring-boot-starter</artifactId>
-				<version>${xapi.core.version}</version>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-undertow</artifactId>
 			</dependency>
 			<dependency>
-				<groupId>com.macys.platform.xapi</groupId>
-				<artifactId>wishlist-xapi-service</artifactId>
-				<version>${project.version}</version>
+				<groupId>javax.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<scope>compile</scope>
 			</dependency>
-			<dependency>
-				<groupId>com.macys.platform.xapi</groupId>
-				<artifactId>wishlist-xapi-functional-test</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.aspectj</groupId>
-				<artifactId>aspectjweaver</artifactId>
-				<version>${aspectj.version}</version>
-			</dependency>
+	</dependencies>
 
-			<!-- Start: Test dependencies -->
-			<dependency>
-				<groupId>org.javers</groupId>
-				<artifactId>javers-core</artifactId>
-				<version>${javers.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>io.github.benas</groupId>
-				<artifactId>random-beans</artifactId>
-				<version>${randombeans.version}</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>com.github.tomakehurst</groupId>
-				<artifactId>wiremock-standalone</artifactId>
-				<version>${wiremock.version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<dependencies>
+				<dependency>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-undertow</artifactId>
+				</dependency>
+				<dependency>
+					<groupId>javax.servlet</groupId>
+					<artifactId>javax.servlet-api</artifactId>
+					<scope>compile</scope>
+				</dependency>
+			</dependencies>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.springframework.boot</groupId>
+						<artifactId>spring-boot-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<goals>
+									<goal>repackage</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-war-plugin</artifactId>
+						<configuration>
+							<failOnMissingWebXml>false</failOnMissingWebXml>
+							<attachClasses>true</attachClasses>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 
 	<build>
 		<plugins>
+			<!--<plugin>-->
+			<!--<groupId>org.springframework.boot</groupId>-->
+			<!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+			<!--<configuration>-->
+			<!--<mainClass>com.macys.selection.xapi.list.Application</mainClass>-->
+			<!--</configuration>-->
+			<!--</plugin>-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<configuration>
+					<sonar.exclusions>**/*.css</sonar.exclusions>
+					<sonar.exclusions>**/*.js</sonar.exclusions>
+					<sonar.exclusions>funtional-test/**</sonar.exclusions>
+				</configuration>
+				<version>1.0</version>
+			</plugin>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<forkMode>${maven.surefire.plugin.fork}</forkMode>
+					<jvm></jvm>
+					<!-- <argLine>${argLine}</argLine> -->
+					<enableAssertions>true</enableAssertions>
+					<parallel>false</parallel>
+					<detail>true</detail>
+					<includes>
+						<include>**/Test*.java</include>
+						<include>**/*Test.java</include>
+					</includes>
+					<systemPropertyVariables>
+						<run_known_breaks>false</run_known_breaks>
+						<unit_test_groups>unit,functional</unit_test_groups>
+						<basedir>${basedir}</basedir>
+					</systemPropertyVariables>
+					<properties>
+						<property>
+							<name>basedir</name>
+							<value>${basedir}</value>
+						</property>
+					</properties>
+				</configuration>
+			</plugin>
+
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
@@ -143,7 +273,10 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
 		</plugins>
 	</build>
-
 </project>
